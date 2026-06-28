@@ -55,3 +55,11 @@ upload/
 
 # scripts/credentials
 scripts/supabase-creds.txt
+
+# Credential scripts (contain tokens - DO NOT COMMIT)
+scripts/setup-vercel.sh
+scripts/setup-supabase.sh
+scripts/setup-github.sh
+scripts/supabase-creds.txt
+.vercel
+.env*
