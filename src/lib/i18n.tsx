@@ -44,17 +44,17 @@ const translations: Record<Language, TranslationDict> = {
     "firsts.title.l2": "Berlaku Serentak —",
     "firsts.title.l3": "Sehingga Malam Ini.",
     "firsts.1.badge": "Kali Pertama",
-    "firsts.1.title": "500 Tahun, Baru Sampai",
+    "firsts.1.title": "500 Tahun, Baru Tiba",
     "firsts.1.desc":
-      "Hikayat ini telah ada jauh sebelum kita. Sejarah penubuhan Negeri Perak — tentang panah yang jatuh ke bumi, tentang perjanjian yang dimeterai di tepi muara — baru kini sampai ke pentas yang selayaknya. Lima ratus tahun kemudian. Tepat pada masanya.",
+      "Hikayat ini telah ada jauh sebelum kita. Sejarah penubuhan Negeri Perak — tentang panah yang jatuh ke bumi, tentang perjanjian yang dimeterai di tepi muara — baru kini tiba ke pentas yang selayaknya. Lima ratus tahun kemudian. Tepat pada masanya.",
     "firsts.2.badge": "Kali Pertama",
     "firsts.2.title": "Hologram Dalam Dunia Bangsawan di IB",
     "firsts.2.desc":
-      "Sejak Istana Budaya mula menyala pada 1999, tiada watak mistik yang pernah hadir secara holografik di atas pentasnya. Beting Beras Basah II mengubah itu — bukan sekadar dengan teknologi, tetapi dengan roh. Watak yang selama ini hanya hidup dalam imaginasi, kini berdiri di hadapan penonton.",
+      "Sejak Istana Budaya mula beroperasi pada 1999, tiada watak mistik yang pernah hadir secara holografik di atas pentasnya. Beting Beras Basah II mengubah itu — bukan sekadar dengan teknologi, tetapi dengan roh. Watak yang selama ini hanya hidup dalam imaginasi, kini berdiri di hadapan penonton.",
     "firsts.3.badge": "Pembukaan Semula",
     "firsts.3.title": "Istana Budaya Membuka Pintunya Semula",
     "firsts.3.desc":
-      "Ada orang yang menunggu bertahun-tahun hanya untuk duduk semula di kerusi merah Istana Budaya. Mereka tidak datang hanya untuk menonton — mereka datang untuk merasai semula sesuatu yang pernah hilang. Show pertama yang mereka pilih adalah show yang akan mereka ceritakan kepada cucu mereka.",
+      "Ada orang yang menunggu bertahun-tahun hanya untuk duduk semula di kerusi merah Istana Budaya. Mereka tidak datang hanya untuk menonton — mereka datang untuk merasai semula sesuatu yang pernah hilang. Pementasan pertama yang mereka pilih adalah pementasan yang akan mereka ceritakan kepada cucu mereka.",
 
     // Contrast
     "contrast.eyebrow": "Ini Berbeza",
@@ -63,28 +63,28 @@ const translations: Record<Language, TranslationDict> = {
     "contrast.title.l3": "Ada Yang Tidak.",
     "contrast.bad.label": "Biasanya begini jadinya",
     "contrast.good.label": "Malam ini berbeza",
-    "contrast.bad.1": "Logo kecil di poster yang tiada siapa ambil gambar",
+    "contrast.bad.1": "Logo kecil di poster yang tiada siapa ambil peduli",
     "contrast.bad.2": "Banner yang dilipat selepas malam terakhir",
     "contrast.bad.3": "Publisiti yang hanya bertahan selagi ada bajet",
     "contrast.bad.4": "Program yang ada, tapi tiada bukti kukuh untuk dilaporkan",
     "contrast.bad.5": "Habis malam, habis semuanya",
     "contrast.good.1":
-      "Nama jenama anda tertulis dalam sejarah seni bangsawan Malaysia",
+      "Nama jenama tuan-tuan tertulis dalam sejarah seni bangsawan Malaysia",
     "contrast.good.2":
       "Media perdana datang sendiri — kerana ini adalah berita, bukan iklan",
     "contrast.good.3":
       "Program pembangunan modal insan dengan 5 elemen yang boleh didokumentasikan dan dilaporkan",
     "contrast.good.4":
-      "Nama anda pada modul latihan yang akan diajar lama selepas malam ini berlalu",
+      "Nama tuan-tuan pada modul latihan yang akan diajar lama selepas malam ini berlalu",
     "contrast.good.5":
-      "Sebuah gelaran yang tidak akan diberikan kepada sesiapa lain selepas ini",
+      "Sebuah gelaran yang tidak akan diberikan kepada sesiapa pun selepas ini",
 
     // Video
     "video.eyebrow": "Pementasan Terdahulu",
     "video.title.l1": "Ini Bukan Janji.",
     "video.title.l2": "Ini Rekod.",
     "video.sub":
-      "Apa yang anda lihat ini bukan konsep atau moodboard. Ini persembahan kami yang lepas. Bayangkan ia semula — dengan hologram, di Istana Budaya, pada malam 30 Oktober 2026.",
+      "Apa yang tuan-tuan lihat ini bukan konsep atau papan mood. Ini persembahan kami yang lepas. Bayangkan ia semula — dengan hologram, di Istana Budaya, pada malam 30 Oktober 2026.",
     "video.caption":
       "Persembahan terdahulu — Beting Beras Basah I  ·  Pertubuhan Bangsawan Warisan Moraza Negeri Perak",
 
@@ -125,27 +125,27 @@ const translations: Record<Language, TranslationDict> = {
     "offer.title.l2": "Nama Di Poster.",
     "offer.1.title": "Liputan yang Datang Sendiri",
     "offer.1.desc":
-      "RTM, TV AlHijrah, Bernama, Berita Harian — mereka tidak perlu dijemput. Tiga faktor bersejarah pementasan ini adalah cerita yang mereka akan cari sendiri. Logo anda ada dalam setiap liputan itu.",
+      "RTM, TV AlHijrah, Bernama, Berita Harian — mereka tidak perlu dijemput. Tiga faktor bersejarah pementasan ini adalah cerita yang mereka akan cari sendiri. Logo tuan-tuan ada dalam setiap liputan itu.",
     "offer.2.title": "Gelaran Yang Tidak Boleh Dibeli",
     "offer.2.desc":
-      "Rakan Strategik Warisan 500 Tahun. Ia bukan sekadar tajuk dalam buku program — ia adalah cara orang akan merujuk jenama anda dalam konteks sambutan bersejarah negara ini.",
+      "Rakan Strategik Warisan 500 Tahun. Ia bukan sekadar tajuk dalam buku program — ia adalah cara orang akan merujuk jenama tuan-tuan dalam konteks sambutan bersejarah negara ini.",
     "offer.3.title": "Program Pembangunan Modal Insan",
     "offer.3.desc":
-      "5 elemen program yang boleh didokumentasikan sepenuhnya — dari Akademi hingga lawatan berpandu di IB semasa rehearsal. Setiap elemen menghasilkan bukti yang boleh dilaporkan.",
+      "5 elemen program yang boleh didokumentasikan sepenuhnya — dari Akademi hingga lawatan berpandu di IB semasa sesi latihan. Setiap elemen menghasilkan bukti yang boleh dilaporkan.",
     "offer.4.title": "Nama Yang Kekal Selepas Malam Ini",
     "offer.4.desc":
-      "Modul latihan dengan nama jenama anda akan terus diajar, dirujuk, dan digunakan berulang kali — oleh orang yang belum pernah dengar nama anda malam itu.",
+      "Modul latihan dengan nama jenama tuan-tuan akan terus diajar, dirujuk, dan digunakan berulang kali — oleh orang yang belum pernah mendengar nama tuan-tuan malam itu.",
     "offer.5.title": "Bilik Yang Sama Dengan Orang Yang Tepat",
     "offer.5.desc":
       "Kerabat DiRaja, barisan kepimpinan kerajaan, tokoh korporat terkemuka. Siapa yang ada dalam dewan malam itu — itu pun ada nilainya yang tidak dapat diukur.",
     "offer.6.title": "Lebih Dari Satu Sempadan",
     "offer.6.desc":
-      "Kerjasama Malaysia-Indonesia-Singapura bermakna jenama anda dilihat oleh lebih dari satu audiens. Ini bukan cerita tempatan.",
+      "Kerjasama Malaysia-Indonesia-Singapura bermakna jenama tuan-tuan dilihat oleh lebih dari satu kumpulan penonton. Ini bukan cerita tempatan.",
 
     // Packages
     "pkg.eyebrow": "Pakej Penajaan",
     "pkg.title.l1": "Pilih Cara",
-    "pkg.title.l2": "Anda Ingin Dikenang.",
+    "pkg.title.l2": "Tuan-tuan Ingin Dikenang.",
     "pkg.sub": "Kami tidak jual ruang kosong. Kami jual tempat dalam sejarah.",
     "pkg.1.tier": "Pakej Saujana",
     "pkg.1.name": "Strategik",
@@ -153,7 +153,7 @@ const translations: Record<Language, TranslationDict> = {
     "pkg.1.note": "Langkah pertama yang bermakna",
     "pkg.1.f1": "Paparan logo dalam media cetak & video",
     "pkg.1.f2": "2 tiket penghargaan",
-    "pkg.1.f3": "Potongan cukai kelayakan",
+    "pkg.1.f3": "Kelayakan potongan cukai",
     "pkg.2.badge": "PALING BANYAK DIPILIH",
     "pkg.2.tier": "Pakej Sinar Warisan",
     "pkg.2.name": "Sokongan",
@@ -162,7 +162,7 @@ const translations: Record<Language, TranslationDict> = {
     "pkg.2.f1": "Paparan logo media cetak & video",
     "pkg.2.f2": "Kempen media sosial aktif",
     "pkg.2.f3": "2 tiket penghargaan",
-    "pkg.2.f4": "Potongan cukai kelayakan",
+    "pkg.2.f4": "Kelayakan potongan cukai",
     "pkg.2.f5": "Cenderahati BBB eksklusif",
     "pkg.3.tier": "Pakej Wira Budaya",
     "pkg.3.name": "Utama",
@@ -172,7 +172,7 @@ const translations: Record<Language, TranslationDict> = {
     "pkg.3.f2": "Ruang pameran eksklusif",
     "pkg.3.f3": "Paparan logo media cetak & video",
     "pkg.3.f4": "Kempen media sosial aktif",
-    "pkg.3.f5": "Potongan cukai kelayakan",
+    "pkg.3.f5": "Kelayakan potongan cukai",
     "pkg.3.f6": "Cenderahati BBB eksklusif",
     "pkg.3.f7": "5% sumbangan Tabung Amal",
     "pkg.3.f8": "Akses Program Bangsawan Legasi",
@@ -185,22 +185,22 @@ const translations: Record<Language, TranslationDict> = {
     "legasi.title.l2": "Lima Pengalaman Yang",
     "legasi.title.l3": "Tidak Dijual Di Mana-Mana.",
     "legasi.intro":
-      "Ini bukan program seremonial untuk difoto dan dilupakan. Setiap elemen direka dengan sengaja — supaya peserta membawa balik sesuatu yang nyata, dan penaja membawa balik bukti yang boleh dilaporkan kepada board dan Putrajaya.",
+      "Ini bukan program seremonial untuk difoto dan dilupakan. Setiap elemen direka dengan sengaja — supaya peserta membawa balik sesuatu yang nyata, dan penaja membawa balik bukti yang boleh dilaporkan kepada lembaga pengarah dan Putrajaya.",
     "legasi.1.title": "Akademi Bangsawan Legasi",
     "legasi.1.desc":
       "Sesi pembelajaran berstruktur bersama penggiat seni yang lebih tiga dekad di atas pentas. Bukan seminar kosong — ini pemindahan ilmu dari pakar kepada pewaris yang sebenar.",
     "legasi.2.title": "Modul Latihan Bertauliah",
     "legasi.2.desc":
-      "Modul latihan fizikal yang dibangunkan khas, selaras dengan NOSS Teater Kebangsaan Tahap 4–5. Nama jenama anda tercetak pada setiap salinan — dan ia akan terus digunakan lama selepas malam show berlalu.",
+      "Modul latihan fizikal yang dibangunkan khas, selaras dengan NOSS Teater Kebangsaan Tahap 4–5. Nama jenama tuan-tuan tercetak pada setiap salinan — dan ia akan terus digunakan lama selepas malam pementasan berlalu.",
     "legasi.3.title": "Lawatan Berpandu di Istana Budaya",
     "legasi.3.desc":
-      "Akses lawatan berpandu ke Istana Budaya semasa tempoh rehearsal — bukan sebagai pelawat biasa, tetapi sebagai tetamu yang diundang masuk ke jantung sebuah produksi berskala nasional.",
-    "legasi.4.title": "Akses Behind the Scene",
+      "Akses lawatan berpandu ke Istana Budaya semasa tempoh latihan — bukan sebagai pelawat biasa, tetapi sebagai tetamu yang diundang masuk ke jantung sebuah produksi berskala nasional.",
+    "legasi.4.title": "Akses Sebalik Tabir",
     "legasi.4.desc":
-      "Peserta menyaksikan proses sebenar produksi — dari sesi blocking hingga technical rehearsal. Dunia di sebalik tabir yang jarang sekali dibuka kepada orang luar. Boleh dijadikan content CSR syarikat anda.",
-    "legasi.5.title": "Sentuhan Terus Dengan Asset Show",
+      "Peserta menyaksikan proses sebenar produksi — dari sesi penentuan kedudukan hingga ulangan teknikal. Dunia di sebalik tabir yang jarang sekali dibuka kepada orang luar. Boleh dijadikan bahan CSR syarikat tuan-tuan.",
+    "legasi.5.title": "Sentuhan Terus Dengan Aset Produksi",
     "legasi.5.desc":
-      "Kostum diraja yang ditenun dengan teliti. Prop set yang diukir khas. Peserta menyentuh artifak produksi sebenar — bukan dalam gambar, bukan di muzium. Di tangan mereka sendiri.",
+      "Busana diraja yang ditenun dengan teliti. Hiasan pentas yang diukir khas. Peserta menyentuh artifak produksi sebenar — bukan dalam gambar, bukan di muzium. Di tangan mereka sendiri.",
     "legasi.sponsor.eyebrow": "Apa yang Penaja Terima",
     "legasi.sponsor.title": "— Bukti yang Boleh Dilaporkan",
     "legasi.sponsor.1.title": "Kohort Bernama Rasmi",
@@ -208,13 +208,13 @@ const translations: Record<Language, TranslationDict> = {
       '"Kohort Waris [Nama Jenama] 2026" — nama yang boleh dilaporkan, dibuktikan, dan dibanggakan dalam laporan CSR dan ESG tahunan.',
     "legasi.sponsor.2.title": "Dokumentasi Setiap Elemen",
     "legasi.sponsor.2.desc":
-      "Gambar dan video dari setiap sesi program — boleh digunakan terus sebagai content CSR syarikat anda tanpa kerja tambahan.",
+      "Gambar dan video dari setiap sesi program — boleh digunakan terus sebagai bahan CSR syarikat tuan-tuan tanpa kerja tambahan.",
     "legasi.sponsor.3.title": "Data yang Siap Dilaporkan",
     "legasi.sponsor.3.desc":
-      "Bilangan peserta, jam aktiviti per elemen, sijil penyertaan rasmi — sedia untuk tabling kepada board atau dikemukakan kepada Putrajaya.",
-    "legasi.sponsor.4.title": "Kredit IP yang Kekal",
+      "Bilangan peserta, jam aktiviti per elemen, sijil penyertaan rasmi — sedia untuk dibentangkan kepada lembaga pengarah atau dikemukakan kepada Putrajaya.",
+    "legasi.sponsor.4.title": "Kredit Harta Intelek yang Kekal",
     "legasi.sponsor.4.desc":
-      "Nama jenama anda pada modul latihan yang akan terus diajar dan dirujuk. Ini bukan iklan yang tamat. Ini warisan.",
+      "Nama jenama tuan-tuan pada modul latihan yang akan terus diajar dan dirujuk. Ini bukan iklan yang tamat. Ini warisan.",
     "legasi.metric1.num": "20–30",
     "legasi.metric1.lbl": "Pelajar terpilih",
     "legasi.metric2.num": "5",
@@ -230,24 +230,24 @@ const translations: Record<Language, TranslationDict> = {
     "faq.title.l2": "Kami Ada Jawapannya.",
     "faq.1.q": "Adakah penajaan ini layak untuk potongan cukai?",
     "faq.1.a":
-      "Ya. Penajaan kepada pertubuhan seni berdaftar biasanya layak untuk potongan cukai. Kami akan sediakan semua dokumen yang diperlukan — anda tinggal semak dengan akauntan syarikat anda untuk memastikan ia selaras dengan keadaan cukai semasa.",
+      "Ya. Penajaan kepada pertubuhan seni berdaftar biasanya layak untuk potongan cukai. Kami akan sediakan semua dokumen yang diperlukan — tuan-tuan hanya perlu semak dengan akauntan syarikat untuk memastikan ia selaras dengan keadaan cukai semasa.",
     "faq.2.q":
       "Bagaimana kami boleh masukkan ini dalam laporan ESG/CSR tahunan?",
     "faq.2.a":
       "Program Bangsawan Legasi menghasilkan laporan program lengkap yang mengandungi bilangan penerima manfaat, jam latihan per elemen, dan sijil penyertaan. Semua dalam format yang boleh terus dimasukkan dalam laporan ESG tahunan di bawah kategori pembangunan modal insan dan tanggungjawab sosial komuniti.",
     "faq.3.q": "Berapa lama Program Bangsawan Legasi berlangsung?",
     "faq.3.a":
-      "Program ini berlangsung selama 8 hingga 12 minggu sebelum show. Pelajar terpilih melalui kelima-lima elemen program secara berperingkat, dan anda akan menerima laporan kemajuan berkala sepanjang tempoh itu.",
+      "Program ini berlangsung selama 8 hingga 12 minggu sebelum pementasan. Pelajar terpilih melalui kelima-lima elemen program secara berperingkat, dan tuan-tuan akan menerima laporan kemajuan berkala sepanjang tempoh itu.",
     "faq.4.q":
       "Bolehkah kami tentukan siapa yang kami mahu manfaatkan?",
     "faq.4.a":
-      "Boleh. Anda boleh tetapkan kriteria — pelajar B40, komuniti luar bandar, institusi pendidikan tertentu, atau belia dari negeri yang anda sasar. Proses saringan kami akan disesuaikan mengikut keperluan program CSR syarikat anda.",
+      "Boleh. Tuan-tuan boleh tetapkan kriteria — pelajar B40, komuniti luar bandar, institusi pendidikan tertentu, atau belia dari negeri yang tuan-tuan sasar. Proses saringan kami akan disesuaikan mengikut keperluan program CSR syarikat.",
     "faq.5.q": "Adakah liputan media sudah terjamin?",
     "faq.5.a":
-      "Tiga sebab media perdana akan hadir tanpa perlu dijemput: pembukaan semula Istana Budaya, sambutan 500 Tahun Kesultanan Perak, dan teknologi holografik pertama kali dalam bangsawan di IB. Ini bukan event biasa — ini berita. Sokongan rasmi MOTAC turut membantu memastikan liputan dari saluran media kerajaan.",
+      "Tiga sebab media perdana akan hadir tanpa perlu dijemput: pembukaan semula Istana Budaya, sambutan 500 Tahun Kesultanan Perak, dan teknologi holografik pertama kali dalam bangsawan di IB. Ini bukan acara biasa — ini berita. Sokongan rasmi MOTAC turut membantu memastikan liputan dari saluran media kerajaan.",
     "faq.6.q": "Macam mana nak mulakan?",
     "faq.6.a":
-      "Cara paling mudah — hubungi kami terus melalui WhatsApp atau muat turun pitch deck kami untuk dibentangkan kepada pihak pengurusan syarikat anda. Kami akan aturkan satu sesi perbincangan yang ringkas untuk faham keperluan anda, dan cadangkan pakej yang paling sesuai.",
+      "Cara paling mudah — hubungi kami terus melalui WhatsApp atau muat turun pitch deck kami untuk dibentangkan kepada pihak pengurusan syarikat. Kami akan aturkan satu sesi perbincangan yang ringkas untuk faham keperluan tuan-tuan, dan cadangkan pakej yang paling sesuai.",
 
     // Form
     "form.eyebrow": "Hubungi Kami",
@@ -255,10 +255,10 @@ const translations: Record<Language, TranslationDict> = {
     "form.title.l2": "Peluang Penajaan?",
     "form.title.l3": "Tinggalkan Mesej.",
     "form.sub":
-      "Isi borang di bawah dan pasukan kami akan menghubungi anda dalam masa 24 jam. Atau hubungi kami terus melalui WhatsApp.",
+      "Isi borang di bawah dan pasukan kami akan menghubungi tuan-tuan dalam masa 24 jam. Atau hubungi kami terus melalui WhatsApp.",
     "form.name": "Nama Penuh",
     "form.name.ph": "Cth: Ahmad bin Abdullah",
-    "form.email": "Email Korporat",
+    "form.email": "E-mel Korporat",
     "form.email.ph": "Cth: ahmad@syarikat.com.my",
     "form.phone": "Nombor Telefon",
     "form.phone.ph": "Cth: +60123456789",
@@ -266,14 +266,14 @@ const translations: Record<Language, TranslationDict> = {
     "form.company.ph": "Cth: Syarikat ABC Sdn Bhd",
     "form.package": "Pakej Yang Berminat",
     "form.package.select": "— Sila pilih —",
-    "form.message": "Mesej Anda",
+    "form.message": "Mesej Tuan-tuan",
     "form.message.ph":
-      "Ceritakan kami tentang objektif penajaan syarikat anda...",
+      "Ceritakan kami tentang objektif penajaan syarikat tuan-tuan...",
     "form.submit": "Hantar Pertanyaan →",
     "form.submitting": "Menghantar...",
     "form.success.title": "Terima kasih!",
     "form.success.desc":
-      "Mesej anda telah diterima. Pasukan kami akan menghubungi anda dalam masa 24 jam.",
+      "Mesej tuan-tuan telah diterima. Pasukan kami akan menghubungi tuan-tuan dalam masa 24 jam.",
     "form.error":
       "Maaf, terdapat ralat. Sila cuba lagi atau hubungi kami terus melalui WhatsApp.",
 
@@ -284,7 +284,7 @@ const translations: Record<Language, TranslationDict> = {
     "cta.title.l3": "Lepas Ini, Takkan Ada Lagi.",
     "cta.sub":
       "Sejarah tidak pernah menunggu sesiapa. Kami membuka peluang ini kepada bilangan penaja yang terhad — dan bila peluang itu tertutup, ia tertutup selamanya. Berhubung dengan kami hari ini.",
-    "cta.wa": "Hubungi via WhatsApp",
+    "cta.wa": "Hubungi Melalui WhatsApp",
     "cta.pdf": "⬇ Muat Turun Pitch Deck (PDF)",
     "cta.note":
       "Pertubuhan Bangsawan Warisan Moraza Negeri Perak  ·  Disokong MOTAC  ·  Istana Budaya 2026",
