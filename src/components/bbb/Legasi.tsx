@@ -262,6 +262,57 @@ export function Legasi() {
               ))}
             </div>
           </div>
+
+          {/* CTA to dedicated program page */}
+          <div
+            style={{
+              marginTop: "2.5rem",
+              padding: "2rem 2.5rem",
+              background:
+                "linear-gradient(135deg, rgba(201,168,76,0.08) 0%, rgba(201,168,76,0.02) 100%)",
+              border: "1px solid var(--border-strong)",
+              borderTop: "3px solid var(--gold)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              gap: "1.5rem",
+              flexWrap: "wrap",
+            }}
+          >
+            <div style={{ flex: "1 1 320px" }}>
+              <div
+                style={{
+                  fontFamily: "var(--font-display), serif",
+                  fontSize: "1.5rem",
+                  color: "var(--cream)",
+                  fontWeight: 500,
+                  marginBottom: "0.375rem",
+                  lineHeight: 1.2,
+                }}
+              >
+                {t("legasi.cta.full")}
+              </div>
+              <div
+                style={{
+                  fontSize: "0.8125rem",
+                  color: "var(--sage)",
+                  lineHeight: 1.5,
+                }}
+              >
+                {t("legasi.cta.full.sub")}
+              </div>
+            </div>
+            <a
+              href="/program-legasi"
+              className="btn-bbb btn-bbb-primary"
+              style={{
+                padding: "16px 32px",
+                fontSize: "0.9375rem",
+              }}
+            >
+              {t("legasi.cta.full")}
+            </a>
+          </div>
         </div>
       </Reveal>
 
