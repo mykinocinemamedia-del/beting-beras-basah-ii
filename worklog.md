@@ -91,3 +91,39 @@ Stage Summary:
 - BM + EN translations complete
 - Mobile responsive (all grids collapse)
 - Main page CTA in Legasi section: "Lihat Penerangan Penuh →"
+
+---
+Task ID: bm-copywriting-improvement
+Agent: main
+Task: Improve BM copywriting - reduce translated feel
+
+Work Log:
+- Audited all BM strings on /program-legasi page
+- Identified 17 strings that felt directly translated from English
+- Moved 10 hardcoded BM UI strings to i18n for proper translation management
+- Improved BM translations:
+  * "Pulangan nilai atas pelaburan" → "Nisbah Pulangan Nilai"
+  * "Pelaburan anda (pakej pilihan)" → "Pelaburan Tuan-tuan"
+  * "Angka perubahan + jam bermakna" → "Bilangan yang membawa perubahan, bukan sekadar kehadiran"
+  * "Anda menjimatkan" → "Tuan-tuan menjimatkan" (consistency)
+  * "Content CSR" → "Bahan Dokumentasi CSR"
+  * "Publisiti Organik" → "Liputan Media Organik"
+  * "Reach media sosial" → "Jangkauan media sosial"
+  * "Banner dilipat selepas show" → "Banner dilipat selepas pementasan"
+  * "Jumlah kasar" → "Jumlah asas"
+  * "penerbitan kandungan" → "penerbitan bahan"
+  * "Akses venue... + kelulusan" → "Akses venue... beserta kelulusan"
+  * "tidak boleh dibeli secara berasingan" → "tidak boleh didapatkan secara berasingan"
+  * "dengan pihak ketiga" → "bersama pihak ketiga"
+  * "Sebelumnya/Seterusnya" → "Langkah Sebelum/Langkah Seterusnya"
+  * "Apa yang anda terima" → "Apa yang tuan-tuan terima"
+- Consistent 'tuan-tuan' tone throughout (was mixing 'anda'/'tuan-tuan')
+- Lint passes (0 errors)
+- Browser verified live: 0 errors
+- Pushed to GitHub (commit c922e97)
+- Deployed to Vercel
+
+Stage Summary:
+- Live URL: https://beting-beras-basah-ii.vercel.app/program-legasi
+- BM copywriting now feels more natural Malay, less translated
+- Tone consistent with user's original manifesto (formal 'tuan-tuan')
