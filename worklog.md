@@ -127,3 +127,60 @@ Stage Summary:
 - Live URL: https://beting-beras-basah-ii.vercel.app/program-legasi
 - BM copywriting now feels more natural Malay, less translated
 - Tone consistent with user's original manifesto (formal 'tuan-tuan')
+
+---
+Task ID: bm-copywriting-main-page
+Agent: main
+Task: Improve BM copywriting on main page - reduce translated feel
+
+Work Log:
+- Audited all BM strings on main page (Hero, ThreeFirsts, Contrast, Video, Credibility, Offer, Packages, Legasi, FAQ, Form, FinalCTA)
+- Identified 40+ strings with translated feel or English words mixed in BM
+- Fixed English words mixed in BM:
+  * 'Show' → 'pementasan' (5 places: firsts.3, faq.3, legasi.2)
+  * 'Rehearsal' → 'latihan/ulangan' (offer.3, legasi.3)
+  * 'Behind the Scene' → 'Sebalik Tabir' (legasi.4.title)
+  * 'Blocking' → 'penentuan kedudukan' (legasi.4.desc)
+  * 'Technical rehearsal' → 'ulangan teknikal' (legasi.4.desc)
+  * 'Content CSR' → 'bahan CSR' (legasi.4, legasi.sponsor.2)
+  * 'Asset Show' → 'Aset Produksi' (legasi.5.title)
+  * 'Kostum' → 'Busana' (legasi.5.desc, consistent with other sections)
+  * 'Prop set' → 'Hiasan pentas' (legasi.5.desc)
+  * 'Board' → 'lembaga pengarah' (legasi.intro, legasi.sponsor.3)
+  * 'Tabling' → 'dibentangkan' (legasi.sponsor.3)
+  * 'IP' → 'Harta Intelek' (legasi.sponsor.4.title)
+  * 'Audiens' → 'kumpulan penonton' (offer.6)
+  * 'Event biasa' → 'acara biasa' (faq.5)
+  * 'Email' → 'E-mel' (form.email)
+  * 'Hubungi via WhatsApp' → 'Hubungi Melalui WhatsApp' (cta.wa)
+  * 'Moodboard' → 'papan mood' (video.sub)
+- Tone consistency (and → tuan-tuan, matching user's manifesto):
+  * 'Logo anda' → 'Logo tuan-tuan' (offer.1)
+  * 'Nama jenama anda' → 'Nama jenama tuan-tuan' (5 places: contrast.good.1, offer.2, offer.4, legasi.2, legasi.sponsor.4)
+  * 'Nama anda' → 'Nama tuan-tuan' (contrast.good.4)
+  * 'Anda Ingin Dikenang' → 'Tuan-tuan Ingin Dikenang' (pkg.title.l2)
+  * 'syarikat anda' → 'syarikat tuan-tuan' (faq.4, faq.6)
+  * 'Mesej Anda' → 'Mesej Tuan-tuan' (form.message)
+  * 'keperluan anda' → 'keperluan tuan-tuan' (faq.6)
+  * 'negeri yang anda sasar' → 'negeri yang tuan-tuan sasar' (faq.4)
+  * 'anda akan menerima' → 'tuan-tuan akan menerima' (faq.3)
+  * 'Mesej anda telah diterima' → 'Mesej tuan-tuan telah diterima' (form.success)
+  * 'menghubungi anda' → 'menghubungi tuan-tuan' (form.sub, form.success)
+  * 'Apa yang anda lihat' → 'Apa yang tuan-tuan lihat' (video.sub)
+- Other naturalization:
+  * 'Baru Sampai' → 'Baru Tiba' (firsts.1.title, firsts.1.desc)
+  * 'mula menyala' → 'mula beroperasi' (firsts.2.desc)
+  * 'Potongan cukai kelayakan' → 'Kelayakan potongan cukai' (3 packages: pkg.1.f3, pkg.2.f4, pkg.3.f5)
+  * 'sesiapa ambil gambar' → 'sesiapa ambil peduli' (contrast.bad.1)
+  * 'belum pernah dengar' → 'belum pernah mendengar' (offer.4)
+  * 'sesiapa lain' → 'sesiapa pun' (contrast.good.5)
+- Lint passes (0 errors)
+- Browser verified live: 0 errors
+- Pushed to GitHub (commit b2f8dd0)
+- Deployed to Vercel
+
+Stage Summary:
+- Live URL: https://beting-beras-basah-ii.vercel.app
+- Main page BM now feels more natural Malay
+- Tone consistent with user's manifesto (formal 'tuan-tuan' throughout)
+- No English words mixed in BM content
