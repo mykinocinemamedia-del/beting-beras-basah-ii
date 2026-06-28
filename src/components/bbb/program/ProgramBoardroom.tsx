@@ -252,7 +252,7 @@ export function ProgramBoardroom() {
                     padding: "1rem 0",
                   }}
                 >
-                  ← Klik mana-mana kad di atas untuk lihat butiran
+                  {t("prog.board.click_hint")}
                 </div>
               )}
             </div>

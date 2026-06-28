@@ -422,7 +422,7 @@ export function ProgramJourney() {
                     fontWeight: 600,
                   }}
                 >
-                  {t("prog.step.1.deliverable").split(" ").slice(0, 1).join(" ")}:
+                  {t("prog.journey.deliverable_label")}
                 </span>
                 <span
                   style={{
@@ -462,7 +462,7 @@ export function ProgramJourney() {
                 fontFamily: "inherit",
               }}
             >
-              ← Sebelumnya
+              {t("prog.journey.prev")}
             </button>
             <div
               style={{
@@ -499,7 +499,7 @@ export function ProgramJourney() {
                 fontFamily: "inherit",
               }}
             >
-              Seterusnya →
+              {t("prog.journey.next")}
             </button>
           </div>
         </div>

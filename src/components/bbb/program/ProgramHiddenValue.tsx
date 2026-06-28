@@ -191,8 +191,7 @@ export function ProgramHiddenValue() {
                     lineHeight: 1.6,
                   }}
                 >
-                  Iklan berbayar tamat apabila bajet habis. Reach tidak kekal.
-                  Tiada cerita sebenar.
+                  {t("prog.hidden.paid_desc")}
                 </p>
               </div>
 
@@ -266,7 +265,7 @@ export function ProgramHiddenValue() {
                   marginBottom: "1rem",
                 }}
               >
-                Apa yang anda terima secara organik:
+                {t("prog.hidden.organic_list_label")}
               </div>
               <div
                 style={{

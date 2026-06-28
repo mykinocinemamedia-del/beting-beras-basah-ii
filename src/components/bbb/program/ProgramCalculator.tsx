@@ -133,7 +133,7 @@ export function ProgramCalculator() {
                         marginBottom: "4px",
                       }}
                     >
-                      Pakej {t2.id}
+                      {t("prog.calc.tier_prefix")} {t2.id}
                     </div>
                     <div
                       style={{
