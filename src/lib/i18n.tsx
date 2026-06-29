@@ -56,28 +56,42 @@ const translations: Record<Language, TranslationDict> = {
     "firsts.3.desc":
       "Ada orang yang menunggu bertahun-tahun hanya untuk duduk semula di kerusi merah Istana Budaya. Mereka tidak datang hanya untuk menonton — mereka datang untuk merasai semula sesuatu yang pernah hilang. Pementasan pertama yang mereka pilih adalah pementasan yang akan mereka ceritakan kepada cucu mereka.",
 
-    // Contrast
-    "contrast.eyebrow": "Ini Berbeza",
+    // Contrast — REWORKED: focus on human capital development, not branding exposure
+    "contrast.eyebrow": "Bukan Pendedahan Jenama. Pembangunan Modal Insan.",
     "contrast.title.l1": "Ada Penajaan Yang Habis",
-    "contrast.title.l2": "Bila Lampu Dipadamkan.",
-    "contrast.title.l3": "Ada Yang Tidak.",
-    "contrast.bad.label": "Biasanya begini jadinya",
-    "contrast.good.label": "Malam ini berbeza",
-    "contrast.bad.1": "Logo kecil di poster yang tiada siapa ambil peduli",
+    "contrast.title.l2": "Bersama Lampu Dipadamkan.",
+    "contrast.title.l3": "Ada Yang Terus Hidup Dalam Manusia.",
+    "contrast.subtitle":
+      "Yang membezakan bukan jumlah pendedahan jenama. Yang membezakan ialah apa yang tertinggal dalam diri manusia selepas malam itu berlalu — dalam peserta yang tuan-tuan pilih, dalam staff teknikal dan kreatif tuan-tuan yang menyaksikan proses ini, dan dalam modul yang akan terus digunakan bertahun-tahun lamanya.",
+    "contrast.bad.label": "Penajaan Acara Biasa",
+    "contrast.bad.sublabel": "Semuanya tentang jenama — semuanya berakhir",
+    "contrast.bad.1": "Logo kecil di poster yang dilupakan esok hari",
     "contrast.bad.2": "Banner yang dilipat selepas malam terakhir",
-    "contrast.bad.3": "Publisiti yang hanya bertahan selagi ada bajet",
-    "contrast.bad.4": "Program yang ada, tapi tiada bukti kukuh untuk dilaporkan",
-    "contrast.bad.5": "Habis malam, habis semuanya",
-    "contrast.good.1":
-      "Nama jenama tuan-tuan tertulis dalam sejarah seni bangsawan Malaysia",
-    "contrast.good.2":
-      "Media perdana datang sendiri — kerana ini adalah berita, bukan iklan",
-    "contrast.good.3":
-      "Program pembangunan modal insan dengan 5 elemen yang boleh didokumentasikan dan dilaporkan",
-    "contrast.good.4":
-      "Nama tuan-tuan pada modul latihan yang akan diajar lama selepas malam ini berlalu",
-    "contrast.good.5":
-      "Sebuah gelaran yang tidak akan diberikan kepada sesiapa pun selepas ini",
+    "contrast.bad.3": "Publisiti yang tamat bila bajet habis",
+    "contrast.bad.4": "Tiada ilmu yang dipindahkan kepada mana-mana manusia",
+    "contrast.bad.5": "Habis acara, habis segalanya — tiada yang kekal dalam diri sesiapa",
+    "contrast.good.label": "Program Pembangunan Modal Insan",
+    "contrast.good.sublabel": "Lima pengalaman yang tertinggal dalam manusia",
+    "contrast.good.1.title": "Akademi Bangsawan Legasi",
+    "contrast.good.1.desc":
+      "Peserta dan staff kreatif tuan-tuan duduk bersama penggiat seni yang membawa 35+ tahun pengalaman di atas pentas. Pemindahan ilmu sebenar — bukan seminar, bukan tayangan slaid.",
+    "contrast.good.2.title": "Modul Latihan Bertauliah NOSS",
+    "contrast.good.2.desc":
+      "Bahan rujukan bertaraf kebangsaan yang boleh tuan-tuan bawa balik untuk latihan dalaman syarikat. Nama tuan-tuan tercetak padanya. Ia akan terus digunakan bertahun-tahun selepas malam ini berlalu.",
+    "contrast.good.3.title": "Lawatan Berpandu ke Istana Budaya",
+    "contrast.good.3.desc":
+      "Akses eksklusif ke jantung produksi semasa latihan sedang berjalan. Bukan pelawat biasa — tetamu yang diundang masuk ke tempat orang luar tidak pernah diberi masuk.",
+    "contrast.good.4.title": "Akses Sebalik Tabir",
+    "contrast.good.4.desc":
+      "Staff teknikal dan kreatif tuan-tuan menyaksikan sendiri proses pengarah, kru, dan pelakon membina sebuah pementasan dari kekosongan. Cara mereka bekerja. Cara mereka menyelesaikan masalah. Cara mereka membawa idea ke pentas.",
+    "contrast.good.5.title": "Sentuhan Aset Produksi Sebenar",
+    "contrast.good.5.desc":
+      "Busana diraja, hiasan pentas yang diukir khas, teknologi holografik pertama di IB. Bukan dalam gambar — di tangan sendiri. Pemahaman konkrit tentang craft yang tidak dapat diperoleh dari mana-mana kursus formal.",
+    "contrast.callout.eyebrow": "Untuk Siapa Program Ini",
+    "contrast.callout.title":
+      "Bukan Untuk Pasukan Pemasaran. Untuk Pasukan Pembangunan Modal Insan Tuan-tuan.",
+    "contrast.callout.body":
+      "Program ini direka untuk staff teknikal dan kreatif tuan-tuan — pasukan yang menghasilkan kandungan, yang membina pengalaman, yang memimpin projek kreatif syarikat. Mereka akan pulang dengan pemahaman tentang process pembangunan teater yang boleh diaplikasikan dalam kerja harian mereka. Itulah nilai yang berkekalan — bukan logo di dewan, tetapi ilmu dalam manusia.",
 
     // Video
     "video.eyebrow": "Pementasan Terdahulu",
@@ -560,29 +574,42 @@ const translations: Record<Language, TranslationDict> = {
     "firsts.3.desc":
       "There are people who have waited years just to sit again in Istana Budaya's red seats. They don't come merely to watch — they come to feel again something that was once lost. The first show they choose will be the show they tell their grandchildren about.",
 
-    // Contrast
-    "contrast.eyebrow": "This Is Different",
+    // Contrast — REWORKED: focus on human capital development
+    "contrast.eyebrow": "Not Brand Exposure. Human Capital Development.",
     "contrast.title.l1": "Some Sponsorships End",
     "contrast.title.l2": "When the Lights Go Out.",
-    "contrast.title.l3": "This One Doesn't.",
-    "contrast.bad.label": "Usually it goes like this",
-    "contrast.good.label": "This night is different",
-    "contrast.bad.1": "Small logo on a poster no one photographs",
+    "contrast.title.l3": "Others Live On in People.",
+    "contrast.subtitle":
+      "What sets this apart is not the amount of brand exposure. What sets it apart is what remains in people after that night passes — in the participants you choose, in your technical and creative staff who witness this process, and in modules that will continue to be used for years.",
+    "contrast.bad.label": "Typical Event Sponsorship",
+    "contrast.bad.sublabel": "All about brand — all of it ends",
+    "contrast.bad.1": "Small logo on a poster forgotten the next day",
     "contrast.bad.2": "Banners folded up after the final night",
-    "contrast.bad.3": "Publicity that lasts only as long as the budget does",
-    "contrast.bad.4":
-      "Programs that exist, but no solid evidence to report",
-    "contrast.bad.5": "Night ends, everything ends",
-    "contrast.good.1":
-      "Your brand name is written into the history of Malaysian bangsawan art",
-    "contrast.good.2":
-      "Mainstream media comes on their own — because this is news, not advertising",
-    "contrast.good.3":
-      "Human capital development program with 5 elements that can be documented and reported",
-    "contrast.good.4":
-      "Your name on training modules that will be taught long after this night passes",
-    "contrast.good.5":
-      "A title that will not be given to anyone else after this",
+    "contrast.bad.3": "Publicity that ends when budget runs out",
+    "contrast.bad.4": "No knowledge transferred to any human being",
+    "contrast.bad.5": "Event ends, everything ends — nothing remains in anyone",
+    "contrast.good.label": "Human Capital Development Program",
+    "contrast.good.sublabel": "Five experiences that remain in people",
+    "contrast.good.1.title": "Bangsawan Legacy Academy",
+    "contrast.good.1.desc":
+      "Your participants and creative staff sit with arts practitioners carrying 35+ years of stage experience. Real knowledge transfer — not seminars, not slideshows.",
+    "contrast.good.2.title": "Accredited NOSS Training Module",
+    "contrast.good.2.desc":
+      "National-level reference material you can bring back for your company's internal training. Your name printed on it. It will continue to be used for years after this night passes.",
+    "contrast.good.3.title": "Guided Tour of Istana Budaya",
+    "contrast.good.3.desc":
+      "Exclusive access to the heart of the production while training is underway. Not an ordinary visitor — a guest invited into places outsiders are never allowed.",
+    "contrast.good.4.title": "Behind the Scenes Access",
+    "contrast.good.4.desc":
+      "Your technical and creative staff witness firsthand the process of directors, crew, and actors building a performance from emptiness. How they work. How they solve problems. How they bring ideas to the stage.",
+    "contrast.good.5.title": "Touch Real Production Assets",
+    "contrast.good.5.desc":
+      "Royal attire, specially carved stage pieces, first holographic technology at IB. Not in pictures — in their own hands. Concrete understanding of craft that cannot be obtained from any formal course.",
+    "contrast.callout.eyebrow": "Who This Program Is For",
+    "contrast.callout.title":
+      "Not For Marketing Teams. For Your Human Capital Development Team.",
+    "contrast.callout.body":
+      "This program is designed for your technical and creative staff — the team that produces content, that builds experiences, that leads your company's creative projects. They will return with understanding of the theater development process that can be applied in their daily work. That is the lasting value — not a logo in the hall, but knowledge in people.",
 
     // Video
     "video.eyebrow": "Previous Performance",
