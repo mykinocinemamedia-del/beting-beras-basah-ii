@@ -184,3 +184,41 @@ Stage Summary:
 - Main page BM now feels more natural Malay
 - Tone consistent with user's manifesto (formal 'tuan-tuan' throughout)
 - No English words mixed in BM content
+
+---
+Task ID: rework-contrast-section
+Agent: main
+Task: Rework Contrast section - focus on human capital development (not branding)
+
+PROBLEM (user feedback):
+- Old contrast section was generic rhetoric ('typical vs different')
+- Investor might think they're paying for branding exposure
+- Didn't emphasize program is for upskilling technical/creative staff
+- Need to highlight concrete deliverables (Akademi, Modul, Lawatan, BTS, Aset)
+
+REWORK:
+- New eyebrow: 'Bukan Pendedahan Jenama. Pembangunan Modal Insan.'
+- New title L3: 'Ada Yang Terus Hidup Dalam Manusia.' (was 'Ada Yang Tidak')
+- Added subtitle explaining what makes this different
+- Bad column: 5 specific items about typical sponsorship ending
+  - 'Tiada ilmu yang dipindahkan kepada mana-mana manusia'
+  - 'Habis acara, habis segalanya - tiada yang kekal dalam diri sesiapa'
+- Good column: 5 concrete deliverables with title + description:
+  1. Akademi Bangsawan Legasi - 35+ years knowledge transfer to staff
+  2. Modul Latihan Bertauliah NOSS - take back for internal training
+  3. Lawatan Berpandu ke Istana Budaya - exclusive access
+  4. Akses Sebalik Tabir - staff see how directors/crew/actors work
+  5. Sentuhan Aset Produksi Sebenar - touch real artifacts
+- New callout below grid:
+  Title: 'Bukan Untuk Pasukan Pemasaran. Untuk Pasukan Pembangunan Modal Insan Tuan-tuan.'
+  Body: emphasizes program is for technical/creative staff upskilling,
+        lasting value is knowledge in people, not logo in hall
+- Layout: 0.85fr / 1.15fr (good column wider - more content)
+- Each good item now has number (01-05) + title + description
+- 10 new i18n keys added (BM + EN)
+
+LIVE: https://beting-beras-basah-ii.vercel.app
+- Browser verified: 0 errors
+- BM + EN both work
+- Pushed to GitHub (commit 29b037b)
+- Deployed to Vercel
