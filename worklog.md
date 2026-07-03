@@ -313,3 +313,50 @@ Lint: 0 errors
 Browser: 0 errors, all 5 PDFs return 200 OK
 Pushed: commit d09ff69
 Deployed: https://beting-beras-basah-ii.vercel.app
+
+---
+Task ID: logo-integration
+Agent: main
+Task: Add 6 logos across website at appropriate locations
+
+Logos Added (in /public/logos/):
+1. logo-bbb-hero-white.png (352x327, 46KB) - Hero section
+   - "BETING BERAS BASAH" with "HIKAYAT DEWA MAHKOTA" subtitle, gold
+2. logo-bbb-text-white.png (174x160, 20KB) - alternative text logo
+3. logo-bbb-symbol-white.png (674x1046, 58KB) - Navbar (both pages)
+   - BBB monogram/symbol only
+4. logo-bbb-dark.png (175x165, 24KB) - dark version (for future light bg use)
+5. logo-warisan-moraza-full.png (186x176, 14KB) - Footer
+   - Full Pertubuhan logo (red/yellow/green symbol + text)
+6. logo-warisan-moraza-symbol.png (140x139, 14KB) - FinalCTA + Favicon
+   - Symbol only (no surrounding text)
+
+Placements:
+1. Favicon: Updated to logo-warisan-moraza-symbol.png
+   - layout.tsx: icons.icon now array of PNG + SVG fallback
+2. Navbar (main page): BBB symbol logo (38px) + 'BBB II' text
+3. Navbar (program-legasi): BBB symbol logo (32px) + 'Back to Home'
+4. Hero section: Large logo-bbb-hero-white.png (420px max-width)
+   - Gold drop-shadow: filter: drop-shadow(0 4px 24px rgba(201,168,76,0.18))
+5. Credibility section: Added 'Disokong Oleh' supporter strip
+   - 5 text logos: MOTAC, JWN, JKKN, MKN Perak, Istana Budaya
+   - Each in display serif gold font + small subtitle
+   - Hover opacity effect (0.85 -> 1)
+6. FinalCTA: Small Warisan Moraza symbol (44px, opacity 0.7)
+   - Below CTA note, above section end
+7. Footer: Full Warisan Moraza logo (90px max-height, centered)
+
+Image Processing:
+- Python script: /scripts/make-logos-transparent.py
+- All white/near-white backgrounds converted to transparent
+- Warisan Moraza logos: 23,994 + 12,156 pixels made transparent
+- BBB logos: minor cleanup (23-62 pixels)
+- All logos preserve original colors on transparent background
+
+Verification:
+- All 6 logos return 200 OK on live deployment
+- Favicon PNG + SVG both accessible
+- 0 lint errors, 0 browser errors
+- BM + EN both work (logos are language-neutral)
+- Pushed to GitHub (commit 9daa068)
+- Deployed: https://beting-beras-basah-ii.vercel.app
