@@ -20,6 +20,7 @@ const translations: Record<Language, TranslationDict> = {
     "nav.pakej": "Pakej",
     "nav.legasi": "Program Legasi",
     "nav.faq": "Soalan",
+    "nav.sokongan": "Sokongan Rasmi",
     "nav.hubungi": "Berhubung Dengan Kami →",
 
     // Hero
@@ -132,6 +133,76 @@ const translations: Record<Language, TranslationDict> = {
     "cred.card6.title": "Pentas Antarabangsa",
     "cred.card6.desc":
       "Republik Czech (2016), China (2019), Singapura (2019), Brunei (2022), Riau (2025). Kami bukan baru berdiri di pentas dunia.",
+
+    // ─── OFFICIAL SUPPORT / SOKONGAN RASMI (NEW SECTION) ───
+    "support.eyebrow": "Sokongan Rasmi & Pengesahan",
+    "support.title.l1": "Bukan Janji Kosong.",
+    "support.title.l2": "Ada Surat.",
+    "support.title.l3": "Ada Mohon. Ada Setuju.",
+    "support.subtitle":
+      "Setiap dakwaan dalam laman ini ada sandaran dokumen rasmi. Bukan slogan — surat sokongan, kelulusan potongan cukai, dan keberangkatan diraja. Semuanya boleh dimuat turun untuk semakan pasukan guaman, kewangan, dan pengurusan tuan-tuan.",
+
+    "support.tax.eyebrow": "Pengesahan Potongan Cukai",
+    "support.tax.title": "RM 300,000 Diiktiraf Untuk Potongan Cukai",
+    "support.tax.body":
+      "Kementerian Pelancongan, Seni dan Budaya (MOTAC) telah mengiktiraf penajaan kepada Pementasan Beting Beras Basah II di bawah Perenggan 34(6)(k) Akta Cukai Pendapatan 1967. Maksudnya: setiap ringgit yang tuan-tuan sumbangkan — sehingga RM 300,000 — layak dituntut sebagai potongan cukai. Bukan janji pemasaran. Kelulusan bertulis daripada Putrajaya.",
+    "support.tax.badge": "Diiktiraf MOTAC",
+    "support.tax.law_ref": "Perenggan 34(6)(k) Akta Cukai Pendapatan 1967",
+    "support.tax.amount_label": "Jumlah diiktiraf",
+    "support.tax.amount_value": "RM 300,000.00",
+    "support.tax.cta": "Muat Turun Surat Sokongan Cukai (PDF) →",
+
+    "support.letters.eyebrow": "Surat Sokongan Rasmi",
+    "support.letters.title": "Lima Surat. Lima Pengesahan.",
+    "support.letters.subtitle":
+      "Daripada Pejabat DiRaja Perak hingga ke Kementerian di Putrajaya. Setiap dokumen di bawah boleh dimuat turun dan disemak.",
+
+    "support.letter.1.org": "Pejabat D.Y.A.M Raja DiHilir Perak",
+    "support.letter.1.date": "30 Jun 2026",
+    "support.letter.1.ref": "Ruj: PRDH/SJM/26 (33)",
+    "support.letter.1.subject": "Keberangkatan Diraja",
+    "support.letter.1.summary":
+      "Duli Yang Amat Mulia Raja Puan Muda Perak Darul Ridzuan, Tunku Soraya binti Almarhum Sultan Abdul Halim Mu'adzam Shah, berkenan berangkat ke pementasan pada 31 Oktober 2026 di Panggung Sari, Istana Budaya.",
+    "support.letter.1.highlight": "Diraja Berangkat",
+
+    "support.letter.2.org": "Kementerian Pelancongan, Seni dan Budaya (MOTAC)",
+    "support.letter.2.date": "27 Januari 2026",
+    "support.letter.2.ref": "Ruj: MOTAC.KSU.100-1/1/1 Jld.1 (16)",
+    "support.letter.2.subject": "Sokongan Rasmi Kementerian",
+    "support.letter.2.summary":
+      "Sokongan rasmi daripada Ketua Setiausaha MOTAC untuk pementasan Beting Beras Basah II. Diiktiraf sebagai program yang memberi impak signifikan kepada pemeliharaan warisan, ekonomi kreatif, dan perpaduan masyarakat.",
+    "support.letter.2.highlight": "Sokongan Kementerian",
+
+    "support.letter.3.org": "Jabatan Warisan Negara (JWN)",
+    "support.letter.3.date": "26 Januari 2025",
+    "support.letter.3.ref": "Ruj: JWN.ZTG.600-6/2/2",
+    "support.letter.3.subject": "Sokongan Permohonan Dana & Program",
+    "support.letter.3.summary":
+      "Sokongan penuh JWN untuk pementasan sebagai produksi seni warisan berskala besar yang mengangkat identiti Kesultanan Perak, bersempena Tahun Melawat Malaysia 2026 dan persediaan Sambutan 500 Tahun Kesultanan Perak 2028.",
+    "support.letter.3.highlight": "Warisan Negara",
+
+    "support.letter.4.org": "Jabatan Kebudayaan dan Kesenian Negara (JKKN) Perak",
+    "support.letter.4.date": "27 Januari 2026",
+    "support.letter.4.ref": "Ruj: JKKNN.PK.100-5/5 (63)",
+    "support.letter.4.subject": "Sokongan Penganjuran di Istana Budaya",
+    "support.letter.4.summary":
+      "JKKN Perak memberi sokongan penuh terhadap penganjuran pementasan di Istana Budaya, Kuala Lumpur. Dinyatakan bahawa program ini amat wajar disokong kerana berpotensi mengangkat martabat seni warisan tradisional ke peringkat yang lebih tinggi.",
+    "support.letter.4.highlight": "Sokongan Negeri",
+
+    "support.letter.5.org": "MOTAC — Sokongan Cukai",
+    "support.letter.5.date": "Mei 2026",
+    "support.letter.5.ref": "Ruj: MOTAC.700-2/1/14Jld.18(98)",
+    "support.letter.5.subject": "Kelulusan Potongan Cukai RM 300,000",
+    "support.letter.5.summary":
+      "Permohonan potongan cukai ke atas penajaan DISOKONG sebanyak RM 300,000.00. Di bawah Perenggan 34(6)(k) Akta Cukai Pendapatan 1967. Penaja boleh menuntut potongan cukai melalui BORANG DK2-PCP2025 dalam tempoh 90 hari selepas penganjuran.",
+    "support.letter.5.highlight": "Potongan Cukai",
+
+    "support.cta.eyebrow": "Untuk Pasukan Guaman & Kewangan",
+    "support.cta.title": "Semua Dokumen Sedia Untuk Semakan",
+    "support.cta.body":
+      "Surat-surat ini boleh diserahkan terus kepada pasukan guaman, kewangan, dan cukai syarikat tuan-tuan sebagai bukti sokongan rasmi dan kelayakan potongan cukai. Setiap dokumen asal boleh dimuat turun dalam format PDF.",
+    "support.cta.note":
+      "Semua surat adalah dokumen rasmi. Sila rujuk kepada Pertubuhan untuk pengesahan lanjut jika diperlukan.",
 
     // Offer
     "offer.eyebrow": "Nilai Penajaan",
@@ -539,6 +610,7 @@ const translations: Record<Language, TranslationDict> = {
     "nav.pakej": "Packages",
     "nav.legasi": "Legacy Program",
     "nav.faq": "FAQ",
+    "nav.sokongan": "Official Support",
     "nav.hubungi": "Get In Touch →",
 
     // Hero
@@ -651,6 +723,76 @@ const translations: Record<Language, TranslationDict> = {
     "cred.card6.title": "International Stage",
     "cred.card6.desc":
       "Czech Republic (2016), China (2019), Singapore (2019), Brunei (2022), Riau (2025). We are not new to the world stage.",
+
+    // ─── OFFICIAL SUPPORT / SOKONGAN RASMI ─── EN
+    "support.eyebrow": "Official Support & Verification",
+    "support.title.l1": "Not Empty Promises.",
+    "support.title.l2": "There Are Letters.",
+    "support.title.l3": "Applied For. Approved.",
+    "support.subtitle":
+      "Every claim on this site is backed by official documentation. Not slogans — letters of support, tax deduction approval, and royal attendance confirmation. All downloadable for review by your legal, finance, and management teams.",
+
+    "support.tax.eyebrow": "Tax Deduction Verification",
+    "support.tax.title": "RM 300,000 Approved for Tax Deduction",
+    "support.tax.body":
+      "The Ministry of Tourism, Arts and Culture (MOTAC) has approved sponsorship for Beting Beras Basah II performance under Paragraph 34(6)(k) of the Income Tax Act 1967. Meaning: every ringgit you contribute — up to RM 300,000 — is eligible to be claimed as tax deduction. Not a marketing promise. Written approval from Putrajaya.",
+    "support.tax.badge": "MOTAC Approved",
+    "support.tax.law_ref": "Paragraph 34(6)(k) Income Tax Act 1967",
+    "support.tax.amount_label": "Approved amount",
+    "support.tax.amount_value": "RM 300,000.00",
+    "support.tax.cta": "Download Tax Support Letter (PDF) →",
+
+    "support.letters.eyebrow": "Official Letters of Support",
+    "support.letters.title": "Five Letters. Five Verifications.",
+    "support.letters.subtitle":
+      "From the Royal Office of Perak to the Ministry in Putrajaya. Each document below can be downloaded and reviewed.",
+
+    "support.letter.1.org": "Office of DYAM Raja DiHilir Perak",
+    "support.letter.1.date": "30 June 2026",
+    "support.letter.1.ref": "Ref: PRDH/SJM/26 (33)",
+    "support.letter.1.subject": "Royal Attendance",
+    "support.letter.1.summary":
+      "Duli Yang Amat Mulia Raja Puan Muda Perak Darul Ridzuan, Tunku Soraya binti Almarhum Sultan Abdul Halim Mu'adzam Shah, has graciously consented to attend the performance on 31 October 2026 at Panggung Sari, Istana Budaya.",
+    "support.letter.1.highlight": "Royal Attendance",
+
+    "support.letter.2.org": "Ministry of Tourism, Arts and Culture (MOTAC)",
+    "support.letter.2.date": "27 January 2026",
+    "support.letter.2.ref": "Ref: MOTAC.KSU.100-1/1/1 Jld.1 (16)",
+    "support.letter.2.subject": "Official Ministry Support",
+    "support.letter.2.summary":
+      "Official support from the Secretary-General of MOTAC for the Beting Beras Basah II performance. Recognized as a program with significant impact on heritage preservation, creative economy, and social unity.",
+    "support.letter.2.highlight": "Ministry Support",
+
+    "support.letter.3.org": "Department of National Heritage (JWN)",
+    "support.letter.3.date": "26 January 2025",
+    "support.letter.3.ref": "Ref: JWN.ZTG.600-6/2/2",
+    "support.letter.3.subject": "Funding & Program Support",
+    "support.letter.3.summary":
+      "Full support from JWN for the performance as a large-scale heritage arts production elevating the identity of the Perak Sultanate, in conjunction with Visit Malaysia 2026 and preparations for the 500 Years of Perak Sultanate Celebration 2028.",
+    "support.letter.3.highlight": "National Heritage",
+
+    "support.letter.4.org": "Department of Culture and Arts (JKKN) Perak",
+    "support.letter.4.date": "27 January 2026",
+    "support.letter.4.ref": "Ref: JKKNN.PK.100-5/5 (63)",
+    "support.letter.4.subject": "Staging Support at Istana Budaya",
+    "support.letter.4.summary":
+      "JKKN Perak gives full support for staging the performance at Istana Budaya, Kuala Lumpur. Stated that this program is highly worthy of support as it has potential to elevate traditional heritage arts to a higher level.",
+    "support.letter.4.highlight": "State Support",
+
+    "support.letter.5.org": "MOTAC — Tax Support",
+    "support.letter.5.date": "May 2026",
+    "support.letter.5.ref": "Ref: MOTAC.700-2/1/14Jld.18(98)",
+    "support.letter.5.subject": "RM 300,000 Tax Deduction Approval",
+    "support.letter.5.summary":
+      "Tax deduction application for sponsorship APPROVED for RM 300,000.00. Under Paragraph 34(6)(k) of the Income Tax Act 1967. Sponsors can claim tax deduction via BORANG DK2-PCP2025 within 90 days after the event.",
+    "support.letter.5.highlight": "Tax Deduction",
+
+    "support.cta.eyebrow": "For Legal & Finance Teams",
+    "support.cta.title": "All Documents Ready for Review",
+    "support.cta.body":
+      "These letters can be submitted directly to your company's legal, finance, and tax teams as evidence of official support and tax deduction eligibility. Each original document is downloadable in PDF format.",
+    "support.cta.note":
+      "All letters are official documents. Please refer to the Organization for further verification if needed.",
 
     // Offer
     "offer.eyebrow": "Sponsorship Value",

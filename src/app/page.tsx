@@ -6,6 +6,7 @@ import { ThreeFirsts } from "@/components/bbb/ThreeFirsts";
 import { Contrast } from "@/components/bbb/Contrast";
 import { VideoSection } from "@/components/bbb/VideoSection";
 import { Credibility } from "@/components/bbb/Credibility";
+import { OfficialSupport } from "@/components/bbb/OfficialSupport";
 import { Offer } from "@/components/bbb/Offer";
 import { Packages } from "@/components/bbb/Packages";
 import { Legasi } from "@/components/bbb/Legasi";
@@ -25,6 +26,7 @@ export default function Home() {
         <Contrast />
         <VideoSection />
         <Credibility />
+        <OfficialSupport />
         <Offer />
         <Packages />
         <Legasi />

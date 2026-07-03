@@ -19,6 +19,7 @@ export function Navbar() {
   const navItems = [
     { href: "#three-firsts", label: t("nav.apa") },
     { href: "#video-section", label: t("nav.tonton") },
+    { href: "#sokongan", label: t("nav.sokongan") },
     { href: "#packages", label: t("nav.pakej") },
     { href: "#legasi", label: t("nav.legasi") },
     { href: "#faq", label: t("nav.faq") },
