@@ -222,3 +222,46 @@ LIVE: https://beting-beras-basah-ii.vercel.app
 - BM + EN both work
 - Pushed to GitHub (commit 29b037b)
 - Deployed to Vercel
+
+---
+Task ID: screenshot-feedback-10-changes
+Agent: main
+Task: Apply user screenshot feedback (10 comments) + poetic refinement
+
+Changes from user screenshots:
+1. Add 'Dengan kerjasama Majlis Kebudayaan Negeri Perak' to footer + CTA note
+2. Countdown date: 30 Oct → 31 Oct (gala/VIP night per user comment 'klu mlm vip ke? 31 okt')
+   - Hero countdown label updated: 'sebelum tirai malam gala dibuka'
+3. 'kekosongan' → 'kosong' (user comment: 'kekosongan - kosong')
+   - contrast.good.4.desc: 'dari kekosongan' → 'dari yang kosong'
+   - prog.discovery.body.2: 'dari kekosongan' → 'dari yang kosong'
+4. SDG tags translated to Malay (user comment: 'klu english better dlm . atau tukar bhs malaysia')
+   - 'SDG 4: Quality Education' → 'SDG 4: Pendidikan Berkualiti'
+   - 'SDG 8: Decent Work' → 'SDG 8: Pekerjaan Wajar'
+5. 'Orang Yang Tepat' → 'Figura-Figura Yang Tepat' (user comment: 'org yg tepat (figura yg tepat)')
+6. Add Riau (2025) to international stages (user comment: 'riau 2025 (pentas antarabangsa)')
+   - cred.card6.desc: Added 'Riau (2025)' + 'Czech Republic' → 'Republik Czech'
+   - 'Kami bukan baru dalam konteks dunia' → 'Kami bukan baru berdiri di pentas dunia'
+7. 'staff' → 'pasukan' throughout (user comment: 'staff')
+   - contrast.subtitle, contrast.good.1.desc, contrast.good.4.desc, contrast.callout.body
+   - Also 'process' → 'proses' in callout.body
+8. Stat updated: 4 → 5 negara (user comment: 'mewakili negara 5')
+   - cred.stat3.num: '4' → '5'
+   - cred.stat3.lbl: 'Negara pernah dikunjungi' → 'Negara diwakili'
+9. '500 Tahun, Baru Tiba' → 'Menjelang 500 Tahun' (user comment: 'menjelang 500 thn')
+   - firsts.1.title + firsts.1.desc updated
+10. 'ceritakan kepada cucu mereka' → 'wariskan kepada generasi akan datang' (user comment: 'cucu (generasi)')
+
+Additional poetic refinement (halus & puitis):
+- 'craft' → 'seni ukiran' (contrast.good.5.desc)
+- 'Prop keris' → 'Keris' (prog.step.5.summary)
+- 'Selepas show' → 'Selepas pementasan' (prog.step.7.duration)
+- footer.partner key added (BM + EN)
+- cta.note updated with MKN Perak (BM + EN)
+- Footer component updated to display partner line
+
+LIVE: https://beting-beras-basah-ii.vercel.app
+- 0 lint errors, 0 browser errors
+- BM + EN both updated
+- Pushed to GitHub (commit 2ccd023)
+- Deployed to Vercel
