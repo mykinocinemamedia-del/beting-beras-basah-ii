@@ -30,16 +30,33 @@ export function ProgramNav() {
         <Link
           href="/"
           style={{
-            fontSize: "0.8125rem",
-            color: "var(--sage)",
+            display: "flex",
+            alignItems: "center",
+            gap: "10px",
             textDecoration: "none",
-            letterSpacing: "0.03em",
-            transition: "color 0.2s",
           }}
-          onMouseEnter={(e) => (e.currentTarget.style.color = "var(--gold)")}
-          onMouseLeave={(e) => (e.currentTarget.style.color = "var(--sage)")}
         >
-          {t("prog.nav.back")}
+          <img
+            src="/logos/logo-bbb-symbol-white.png"
+            alt="BBB Symbol"
+            style={{
+              height: "32px",
+              width: "auto",
+              objectFit: "contain",
+            }}
+          />
+          <span
+            style={{
+              fontSize: "0.8125rem",
+              color: "var(--sage)",
+              letterSpacing: "0.03em",
+              transition: "color 0.2s",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.color = "var(--gold)")}
+            onMouseLeave={(e) => (e.currentTarget.style.color = "var(--sage)")}
+          >
+            {t("prog.nav.back")}
+          </span>
         </Link>
 
         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>

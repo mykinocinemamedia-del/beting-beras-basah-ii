@@ -85,6 +85,21 @@ export function Hero() {
         style={{ position: "relative", zIndex: 3 }}
       >
         <div style={{ maxWidth: "820px" }}>
+          {/* BBB Logo - large hero version */}
+          <div style={{ marginBottom: "2rem" }}>
+            <img
+              src="/logos/logo-bbb-hero-white.png"
+              alt="Beting Beras Basah II — Hikayat Dewa Mahkota"
+              style={{
+                maxWidth: "420px",
+                width: "100%",
+                height: "auto",
+                objectFit: "contain",
+                filter: "drop-shadow(0 4px 24px rgba(201,168,76,0.18))",
+              }}
+            />
+          </div>
+
           <div
             style={{
               display: "inline-flex",

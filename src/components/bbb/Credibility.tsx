@@ -125,6 +125,81 @@ export function Credibility() {
               </div>
             ))}
           </div>
+
+          {/* Supported by — text logo strip */}
+          <div
+            style={{
+              marginTop: "3rem",
+              paddingTop: "2.5rem",
+              borderTop: "1px solid var(--border)",
+              textAlign: "center",
+            }}
+          >
+            <div
+              style={{
+                fontSize: "0.625rem",
+                color: "var(--muted)",
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                fontWeight: 700,
+                marginBottom: "1.5rem",
+              }}
+            >
+              Disokong Oleh
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "2.5rem",
+              }}
+              className="supporter-logos"
+            >
+              {[
+                { name: "MOTAC", sub: "Kementerian Pelancongan, Seni dan Budaya" },
+                { name: "JWN", sub: "Jabatan Warisan Negara" },
+                { name: "JKKN", sub: "Jabatan Kebudayaan & Kesenian Negara Perak" },
+                { name: "MKN Perak", sub: "Majlis Kebudayaan Negeri Perak" },
+                { name: "Istana Budaya", sub: "Panggung Sari, Kuala Lumpur" },
+              ].map((s, i) => (
+                <div
+                  key={i}
+                  style={{
+                    textAlign: "center",
+                    opacity: 0.85,
+                    transition: "opacity 0.25s",
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
+                  onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.85")}
+                >
+                  <div
+                    style={{
+                      fontFamily: "var(--font-display), serif",
+                      fontSize: "1.5rem",
+                      color: "var(--gold)",
+                      fontWeight: 500,
+                      letterSpacing: "0.02em",
+                      lineHeight: 1.1,
+                    }}
+                  >
+                    {s.name}
+                  </div>
+                  <div
+                    style={{
+                      fontSize: "0.625rem",
+                      color: "var(--muted)",
+                      letterSpacing: "0.04em",
+                      marginTop: "4px",
+                    }}
+                  >
+                    {s.sub}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </Reveal>
     </section>

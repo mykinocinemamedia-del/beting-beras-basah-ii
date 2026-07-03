@@ -81,9 +81,21 @@ export function FinalCTA() {
               {t("cta.pdf")}
             </a>
           </div>
-          <p style={{ fontSize: "0.8125rem", color: "var(--muted)", textAlign: "center" }}>
+          <p style={{ fontSize: "0.8125rem", color: "var(--muted)", textAlign: "center", margin: "0 0 1.5rem 0" }}>
             {t("cta.note")}
           </p>
+          {/* Small Warisan Moraza logo */}
+          <div style={{ display: "flex", justifyContent: "center", opacity: 0.7 }}>
+            <img
+              src="/logos/logo-warisan-moraza-symbol.png"
+              alt="Pertubuhan Bangsawan Warisan Moraza Negeri Perak"
+              style={{
+                height: "44px",
+                width: "auto",
+                objectFit: "contain",
+              }}
+            />
+          </div>
         </div>
       </Reveal>
     </section>

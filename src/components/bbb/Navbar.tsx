@@ -56,15 +56,33 @@ export function Navbar() {
         <a
           href="#"
           style={{
-            fontFamily: "var(--font-display), serif",
-            fontSize: "1.25rem",
-            fontWeight: 600,
-            color: "var(--cream)",
+            display: "flex",
+            alignItems: "center",
+            gap: "10px",
             textDecoration: "none",
-            letterSpacing: "0.02em",
           }}
         >
-          BBB <span style={{ color: "var(--gold)" }}>II</span>
+          {/* Logo symbol */}
+          <img
+            src="/logos/logo-bbb-symbol-white.png"
+            alt="BBB Symbol"
+            style={{
+              height: "38px",
+              width: "auto",
+              objectFit: "contain",
+            }}
+          />
+          <span
+            style={{
+              fontFamily: "var(--font-display), serif",
+              fontSize: "1.25rem",
+              fontWeight: 600,
+              color: "var(--cream)",
+              letterSpacing: "0.02em",
+            }}
+          >
+            BBB <span style={{ color: "var(--gold)" }}>II</span>
+          </span>
         </a>
 
         {/* Desktop nav */}
