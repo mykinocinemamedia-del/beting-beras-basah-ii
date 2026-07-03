@@ -265,3 +265,51 @@ LIVE: https://beting-beras-basah-ii.vercel.app
 - BM + EN both updated
 - Pushed to GitHub (commit 2ccd023)
 - Deployed to Vercel
+
+---
+Task ID: official-support-section
+Agent: main
+Task: Add Official Support section with 5 downloadable surat sokongan PDFs
+
+Files Added:
+- /public/documents/Surat-Jawapan-Pementasan-Bangsawan-IB.pdf (148KB)
+  Royal attendance letter from Pejabat DYAM Raja DiHilir Perak
+- /public/documents/Surat-Sokongan-Pementasan-BBB-II.pdf (341KB)
+  MOTAC ministry official support letter
+- /public/documents/Surat-Sokongan-JWN-BBB-II.pdf (316KB)
+  Jabatan Warisan Negara support letter
+- /public/documents/Surat-Sokongan-JKKN-BBB-II.pdf (275KB)
+  JKKN Perak staging support letter
+- /public/documents/Surat-Sokongan-Pengecualian-Cukai.pdf (2.1MB)
+  MOTAC tax exemption approval (RM 300,000)
+
+New Component:
+- /src/components/bbb/OfficialSupport.tsx
+  - Tax deduction highlight callout (RM 300,000)
+    - MOTAC approved badge
+    - Amount display
+    - Law reference: Paragraph 34(6)(k) Income Tax Act 1967
+    - Direct PDF download
+  - 5 letter cards in responsive grid
+    - Each card: number, highlight badge, org, subject, date, ref,
+      summary, download button
+    - Hover lift effect
+  - CTA for legal & finance teams
+
+Section added to main page: Between Credibility and Offer
+Nav link added: 'Sokongan Rasmi' (BM) / 'Official Support' (EN)
+
+Key Information Extracted from Letters (verified via VLM):
+1. Royal: Tunku Soraya binti Almarhum Sultan Abdul Halim Mu'adzam Shah
+   attending 31 Oct 2026 at Panggung Sari, Istana Budaya
+2. MOTAC: RM 300,000 tax deduction approved under Para 34(6)(k)
+   Income Tax Act 1967, claimable via BORANG DK2-PCP2025 within 90 days
+3. JWN: Mentioned Visit Malaysia 2026 + 500 Years Perak Sultanate 2028
+4. JKKN: Full staging support at Istana Budaya
+5. MOTAC KSU: Official ministry recognition
+
+Translations: ~40 new i18n keys (BM + EN)
+Lint: 0 errors
+Browser: 0 errors, all 5 PDFs return 200 OK
+Pushed: commit d09ff69
+Deployed: https://beting-beras-basah-ii.vercel.app
