@@ -17,7 +17,7 @@ export function Packages() {
       features: [t("pkg.1.f1"), t("pkg.1.f2"), t("pkg.1.f3")],
       featured: false,
       waText:
-        "Salam, saya berminat dengan Pakej Saujana untuk penajaan Beting Beras Basah II.",
+        "Salam, saya berminat dengan Pakej Saujana untuk penajaan Teater Bangsawan Beting Basah.",
     },
     {
       tier: t("pkg.2.tier"),
@@ -34,7 +34,7 @@ export function Packages() {
       featured: true,
       badge: t("pkg.2.badge"),
       waText:
-        "Salam, saya berminat dengan Pakej Sinar Warisan untuk penajaan Beting Beras Basah II.",
+        "Salam, saya berminat dengan Pakej Sinar Warisan untuk penajaan Teater Bangsawan Beting Basah.",
     },
     {
       tier: t("pkg.3.tier"),
@@ -53,7 +53,7 @@ export function Packages() {
       ],
       featured: false,
       waText:
-        "Salam, saya berminat dengan Pakej Wira Budaya untuk penajaan Beting Beras Basah II.",
+        "Salam, saya berminat dengan Pakej Wira Budaya untuk penajaan Teater Bangsawan Beting Basah.",
     },
   ];
 

@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL ||
       "https://beting-beras-basah-ii.vercel.app"
   ),
-  title: "Beting Beras Basah II — Teater Bangsawan DiRaja 2026 | Istana Budaya",
+  title: "Teater Bangsawan Beting Basah — DiRaja 2026 | Istana Budaya",
   description:
-    "Lima ratus tahun menanti. Kini tiba masanya. Teater Bangsawan DiRaja Beting Beras Basah II di Istana Budaya, 30 Oktober – 1 November 2026. Peluang penajaan masih terbuka.",
+    "Lima ratus tahun menanti. Kini tiba masanya. Teater Bangsawan DiRaja Beting Basah di Istana Budaya, 30 Oktober – 1 November 2026. Peluang penajaan masih terbuka.",
   keywords: [
     "Beting Beras Basah",
     "Bangsawan",
@@ -39,17 +39,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Pertubuhan Bangsawan Warisan Moraza Negeri Perak" }],
   openGraph: {
-    title: "Beting Beras Basah II — Teater Bangsawan DiRaja 2026",
+    title: "Teater Bangsawan Beting Basah — DiRaja 2026",
     description:
       "Lima ratus tahun menanti. Kini tiba masanya. Hikayat Mahkota Dewa di Istana Budaya, 30 Oktober – 1 November 2026.",
     url: "https://beting-beras-basah-ii.vercel.app",
-    siteName: "Beting Beras Basah II",
+    siteName: "Teater Bangsawan Beting Basah",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Beting Beras Basah II — Teater Bangsawan DiRaja 2026",
+        alt: "Teater Bangsawan Beting Basah — DiRaja 2026",
       },
     ],
     type: "website",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Beting Beras Basah II — Teater Bangsawan DiRaja 2026",
+    title: "Teater Bangsawan Beting Basah — DiRaja 2026",
     description:
       "Lima ratus tahun menanti. Kini tiba masanya. Istana Budaya, 30 Oktober – 1 November 2026.",
     images: ["/og-image.png"],

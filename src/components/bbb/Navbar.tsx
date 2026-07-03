@@ -81,7 +81,7 @@ export function Navbar() {
               letterSpacing: "0.02em",
             }}
           >
-            BBB <span style={{ color: "var(--gold)" }}>II</span>
+            BBB
           </span>
         </a>
 

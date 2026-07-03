@@ -89,7 +89,7 @@ export function Hero() {
           <div style={{ marginBottom: "2rem" }}>
             <img
               src="/logos/logo-bbb-hero-white.png"
-              alt="Beting Beras Basah II — Hikayat Dewa Mahkota"
+              alt="Teater Bangsawan Beting Basah — Hikayat Dewa Mahkota"
               style={{
                 maxWidth: "420px",
                 width: "100%",

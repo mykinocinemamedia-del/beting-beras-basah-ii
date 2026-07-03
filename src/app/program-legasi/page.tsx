@@ -14,9 +14,9 @@ import { WhatsAppFloat } from "@/components/bbb/WhatsAppFloat";
 
 export const metadata: Metadata = {
   title:
-    "Program Bangsawan Legasi — Penerangan Penuh | Beting Beras Basah II",
+    "Program Bangsawan Legasi — Penerangan Penuh | Teater Bangsawan Beting Basah",
   description:
-    "Penerangan interaktif lengkap untuk pasukan CSR & pengurusan: perjalanan 8-12 minggu, kalkulator nilai, dan apa yang anda bawa ke bilik mesyuarat. Program Bangsawan Legasi Beting Beras Basah II.",
+    "Penerangan interaktif lengkap untuk pasukan CSR & pengurusan: perjalanan 8-12 minggu, kalkulator nilai, dan apa yang anda bawa ke bilik mesyuarat. Program Bangsawan Legasi Teater Bangsawan Beting Basah.",
   keywords: [
     "Program Bangsawan Legasi",
     "CSR",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description:
       "Penerangan interaktif untuk CSR: 7-langkah perjalanan, kalkulator nilai, boardroom deliverables.",
     url: "https://beting-beras-basah-ii.vercel.app/program-legasi",
-    siteName: "Beting Beras Basah II",
+    siteName: "Teater Bangsawan Beting Basah",
     images: [
       {
         url: "/og-image.png",

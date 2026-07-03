@@ -28,9 +28,9 @@ const translations: Record<Language, TranslationDict> = {
       "30 Oktober – 1 November 2026  ·  Panggung Sari, Istana Budaya",
     "hero.title.l1": "Lima Ratus Tahun",
     "hero.title.l2": "Menanti. Kini",
-    "hero.title.l3": "Tibalah Masanya.",
+    "hero.title.l3": "Tibalah Ke Istana Budaya.",
     "hero.sub":
-      "Ada cerita yang menunggu terlalu lama untuk diceritakan. Beting Beras Basah II: Hikayat Mahkota Dewa adalah malam di mana hikayat itu akhirnya menemui pentasnya — di Istana Budaya, dengan cahaya hologram yang belum pernah menyentuh dunia bangsawan sebelum ini.",
+      "Ada cerita yang menunggu terlalu lama untuk diceritakan. Teater Bangsawan Beting Basah: Hikayat Mahkota Dewa adalah malam di mana hikayat itu akhirnya menemui pentasnya — di Istana Budaya, dengan cahaya hologram yang belum pernah menyentuh dunia bangsawan sebelum ini.",
     "hero.cta.penaja": "Jadi Rakan Penaja →",
     "hero.cta.pdf": "⬇ Muat Turun Pitch Deck",
     "hero.countdown.label": "Masa yang berbaki sebelum tirai malam gala dibuka",
@@ -51,7 +51,7 @@ const translations: Record<Language, TranslationDict> = {
     "firsts.2.badge": "Kali Pertama",
     "firsts.2.title": "Hologram Dalam Dunia Bangsawan di IB",
     "firsts.2.desc":
-      "Sejak Istana Budaya mula beroperasi pada 1999, tiada watak mistik yang pernah hadir secara holografik di atas pentasnya. Beting Beras Basah II mengubah itu — bukan sekadar dengan teknologi, tetapi dengan roh. Watak yang selama ini hanya hidup dalam imaginasi, kini berdiri di hadapan penonton.",
+      "Sejak Istana Budaya mula beroperasi pada 1999, tiada watak mistik yang pernah hadir secara holografik di atas pentasnya. Teater Bangsawan Beting Basah mengubah itu — bukan sekadar dengan teknologi, tetapi dengan roh. Watak yang selama ini hanya hidup dalam imaginasi, kini berdiri di hadapan penonton.",
     "firsts.3.badge": "Pembukaan Semula",
     "firsts.3.title": "Istana Budaya Membuka Pintunya Semula",
     "firsts.3.desc":
@@ -145,7 +145,7 @@ const translations: Record<Language, TranslationDict> = {
     "support.tax.eyebrow": "Pengesahan Potongan Cukai",
     "support.tax.title": "RM 300,000 Diiktiraf Untuk Potongan Cukai",
     "support.tax.body":
-      "Kementerian Pelancongan, Seni dan Budaya (MOTAC) telah mengiktiraf penajaan kepada Pementasan Beting Beras Basah II di bawah Perenggan 34(6)(k) Akta Cukai Pendapatan 1967. Maksudnya: setiap ringgit yang tuan-tuan sumbangkan — sehingga RM 300,000 — layak dituntut sebagai potongan cukai. Bukan janji pemasaran. Kelulusan bertulis daripada Putrajaya.",
+      "Kementerian Pelancongan, Seni dan Budaya (MOTAC) telah mengiktiraf penajaan kepada Pementasan Teater Bangsawan Beting Basah di bawah Perenggan 34(6)(k) Akta Cukai Pendapatan 1967. Maksudnya: setiap ringgit yang tuan-tuan sumbangkan — sehingga RM 300,000 — layak dituntut sebagai potongan cukai. Bukan janji pemasaran. Kelulusan bertulis daripada Putrajaya.",
     "support.tax.badge": "Diiktiraf MOTAC",
     "support.tax.law_ref": "Perenggan 34(6)(k) Akta Cukai Pendapatan 1967",
     "support.tax.amount_label": "Jumlah diiktiraf",
@@ -170,7 +170,7 @@ const translations: Record<Language, TranslationDict> = {
     "support.letter.2.ref": "Ruj: MOTAC.KSU.100-1/1/1 Jld.1 (16)",
     "support.letter.2.subject": "Sokongan Rasmi Kementerian",
     "support.letter.2.summary":
-      "Sokongan rasmi daripada Ketua Setiausaha MOTAC untuk pementasan Beting Beras Basah II. Diiktiraf sebagai program yang memberi impak signifikan kepada pemeliharaan warisan, ekonomi kreatif, dan perpaduan masyarakat.",
+      "Sokongan rasmi daripada Ketua Setiausaha MOTAC untuk pementasan Teater Bangsawan Beting Basah. Diiktiraf sebagai program yang memberi impak signifikan kepada pemeliharaan warisan, ekonomi kreatif, dan perpaduan masyarakat.",
     "support.letter.2.highlight": "Sokongan Kementerian",
 
     "support.letter.3.org": "Jabatan Warisan Negara (JWN)",
@@ -248,7 +248,7 @@ const translations: Record<Language, TranslationDict> = {
     "pkg.2.f2": "Kempen media sosial aktif",
     "pkg.2.f3": "2 tiket penghargaan",
     "pkg.2.f4": "Kelayakan potongan cukai",
-    "pkg.2.f5": "Cenderahati BBB eksklusif",
+    "pkg.2.f5": "Cenderahati Teater Bangsawan eksklusif",
     "pkg.3.tier": "Pakej Wira Budaya",
     "pkg.3.name": "Utama",
     "pkg.3.price": "RM 10,001+",
@@ -258,7 +258,7 @@ const translations: Record<Language, TranslationDict> = {
     "pkg.3.f3": "Paparan logo media cetak & video",
     "pkg.3.f4": "Kempen media sosial aktif",
     "pkg.3.f5": "Kelayakan potongan cukai",
-    "pkg.3.f6": "Cenderahati BBB eksklusif",
+    "pkg.3.f6": "Cenderahati Teater Bangsawan eksklusif",
     "pkg.3.f7": "5% sumbangan Tabung Amal",
     "pkg.3.f8": "Akses Program Bangsawan Legasi",
     "pkg.btn": "Berhubung Dengan Kami →",
@@ -375,7 +375,7 @@ const translations: Record<Language, TranslationDict> = {
       "Pertubuhan Bangsawan Warisan Moraza Negeri Perak  ·  Disokong MOTAC  ·  Dengan kerjasama MKN Perak  ·  Istana Budaya 2026",
 
     // Footer
-    "footer.title": "Beting Beras Basah II: Hikayat Mahkota Dewa",
+    "footer.title": "Teater Bangsawan Beting Basah: Hikayat Mahkota Dewa",
     "footer.org": "Pertubuhan Bangsawan Warisan Moraza Negeri Perak",
     "footer.partner": "Dengan kerjasama Majlis Kebudayaan Negeri Perak",
     "footer.copy":
@@ -618,9 +618,9 @@ const translations: Record<Language, TranslationDict> = {
       "30 October – 1 November 2026  ·  Panggung Sari, Istana Budaya",
     "hero.title.l1": "Five Hundred Years",
     "hero.title.l2": "Waiting. Now",
-    "hero.title.l3": "The Time Has Come.",
+    "hero.title.l3": "It Arrives At Istana Budaya.",
     "hero.sub":
-      "There are stories that have waited too long to be told. Beting Beras Basah II: Hikayat Mahkota Dewa is the night when that tale finally finds its stage — at Istana Budaya, with holographic light that has never touched the bangsawan world before.",
+      "There are stories that have waited too long to be told. Teater Bangsawan Beting Basah: Hikayat Mahkota Dewa is the night when that tale finally finds its stage — at Istana Budaya, with holographic light that has never touched the bangsawan world before.",
     "hero.cta.penaja": "Become a Sponsor →",
     "hero.cta.pdf": "⬇ Download Pitch Deck",
     "hero.countdown.label": "Time remaining before the curtain rises",
@@ -641,7 +641,7 @@ const translations: Record<Language, TranslationDict> = {
     "firsts.2.badge": "First Time",
     "firsts.2.title": "Hologram in the Bangsawan World at IB",
     "firsts.2.desc":
-      "Since Istana Budaya first lit up in 1999, no mystical character has ever appeared holographically on its stage. Beting Beras Basah II changes that — not merely with technology, but with soul. Characters that until now lived only in imagination now stand before the audience.",
+      "Since Istana Budaya first lit up in 1999, no mystical character has ever appeared holographically on its stage. Teater Bangsawan Beting Basah changes that — not merely with technology, but with soul. Characters that until now lived only in imagination now stand before the audience.",
     "firsts.3.badge": "Reopening",
     "firsts.3.title": "Istana Budaya Opens Its Doors Again",
     "firsts.3.desc":
@@ -735,7 +735,7 @@ const translations: Record<Language, TranslationDict> = {
     "support.tax.eyebrow": "Tax Deduction Verification",
     "support.tax.title": "RM 300,000 Approved for Tax Deduction",
     "support.tax.body":
-      "The Ministry of Tourism, Arts and Culture (MOTAC) has approved sponsorship for Beting Beras Basah II performance under Paragraph 34(6)(k) of the Income Tax Act 1967. Meaning: every ringgit you contribute — up to RM 300,000 — is eligible to be claimed as tax deduction. Not a marketing promise. Written approval from Putrajaya.",
+      "The Ministry of Tourism, Arts and Culture (MOTAC) has approved sponsorship for Teater Bangsawan Beting Basah performance under Paragraph 34(6)(k) of the Income Tax Act 1967. Meaning: every ringgit you contribute — up to RM 300,000 — is eligible to be claimed as tax deduction. Not a marketing promise. Written approval from Putrajaya.",
     "support.tax.badge": "MOTAC Approved",
     "support.tax.law_ref": "Paragraph 34(6)(k) Income Tax Act 1967",
     "support.tax.amount_label": "Approved amount",
@@ -760,7 +760,7 @@ const translations: Record<Language, TranslationDict> = {
     "support.letter.2.ref": "Ref: MOTAC.KSU.100-1/1/1 Jld.1 (16)",
     "support.letter.2.subject": "Official Ministry Support",
     "support.letter.2.summary":
-      "Official support from the Secretary-General of MOTAC for the Beting Beras Basah II performance. Recognized as a program with significant impact on heritage preservation, creative economy, and social unity.",
+      "Official support from the Secretary-General of MOTAC for the Teater Bangsawan Beting Basah performance. Recognized as a program with significant impact on heritage preservation, creative economy, and social unity.",
     "support.letter.2.highlight": "Ministry Support",
 
     "support.letter.3.org": "Department of National Heritage (JWN)",
@@ -838,7 +838,7 @@ const translations: Record<Language, TranslationDict> = {
     "pkg.2.f2": "Active social media campaign",
     "pkg.2.f3": "2 appreciation tickets",
     "pkg.2.f4": "Tax deduction eligibility",
-    "pkg.2.f5": "Exclusive BBB souvenir",
+    "pkg.2.f5": "Exclusive Teater Bangsawan souvenir",
     "pkg.3.tier": "Wira Budaya Package",
     "pkg.3.name": "Premier",
     "pkg.3.price": "RM 10,001+",
@@ -848,7 +848,7 @@ const translations: Record<Language, TranslationDict> = {
     "pkg.3.f3": "Logo display in print & video media",
     "pkg.3.f4": "Active social media campaign",
     "pkg.3.f5": "Tax deduction eligibility",
-    "pkg.3.f6": "Exclusive BBB souvenir",
+    "pkg.3.f6": "Exclusive Teater Bangsawan souvenir",
     "pkg.3.f7": "5% donation to Charity Fund",
     "pkg.3.f8": "Access to Bangsawan Legacy Program",
     "pkg.btn": "Get In Touch →",
@@ -963,7 +963,7 @@ const translations: Record<Language, TranslationDict> = {
       "Pertubuhan Bangsawan Warisan Moraza Negeri Perak  ·  Endorsed by MOTAC  ·  In collaboration with MKN Perak  ·  Istana Budaya 2026",
 
     // Footer
-    "footer.title": "Beting Beras Basah II: Hikayat Mahkota Dewa",
+    "footer.title": "Teater Bangsawan Beting Basah: Hikayat Mahkota Dewa",
     "footer.org": "Pertubuhan Bangsawan Warisan Moraza Negeri Perak",
     "footer.partner": "In collaboration with Majlis Kebudayaan Negeri Perak",
     "footer.copy":
