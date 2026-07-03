@@ -13,7 +13,7 @@ export function Hero() {
   useEffect(() => {
     const update = () => {
       const diff =
-        new Date("2026-10-30T20:00:00+08:00").getTime() - Date.now();
+        new Date("2026-10-31T20:00:00+08:00").getTime() - Date.now();
       if (diff <= 0) return;
       setTime({
         d: Math.floor(diff / 86400000),

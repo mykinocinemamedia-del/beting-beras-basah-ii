@@ -22,6 +22,9 @@ export function Footer() {
         <p style={{ fontSize: "0.8125rem", color: "var(--muted)", margin: "0 0 0.375rem" }}>
           {t("footer.org")}
         </p>
+        <p style={{ fontSize: "0.75rem", color: "var(--gold)", margin: "0.75rem 0 0.375rem", letterSpacing: "0.04em" }}>
+          {t("footer.partner")}
+        </p>
         <p style={{ fontSize: "0.8125rem", color: "var(--muted)", marginTop: "1.5rem", margin: "1.5rem 0 0" }}>
           {t("footer.copy")}
         </p>

@@ -32,7 +32,7 @@ const translations: Record<Language, TranslationDict> = {
       "Ada cerita yang menunggu terlalu lama untuk diceritakan. Beting Beras Basah II: Hikayat Mahkota Dewa adalah malam di mana hikayat itu akhirnya menemui pentasnya — di Istana Budaya, dengan cahaya hologram yang belum pernah menyentuh dunia bangsawan sebelum ini.",
     "hero.cta.penaja": "Jadi Rakan Penaja →",
     "hero.cta.pdf": "⬇ Muat Turun Pitch Deck",
-    "hero.countdown.label": "Masa yang berbaki sebelum tirai dibuka",
+    "hero.countdown.label": "Masa yang berbaki sebelum tirai malam gala dibuka",
     "hero.countdown.days": "Hari",
     "hero.countdown.hours": "Jam",
     "hero.countdown.mins": "Minit",
@@ -44,9 +44,9 @@ const translations: Record<Language, TranslationDict> = {
     "firsts.title.l2": "Berlaku Serentak —",
     "firsts.title.l3": "Sehingga Malam Ini.",
     "firsts.1.badge": "Kali Pertama",
-    "firsts.1.title": "500 Tahun, Baru Tiba",
+    "firsts.1.title": "Menjelang 500 Tahun",
     "firsts.1.desc":
-      "Hikayat ini telah ada jauh sebelum kita. Sejarah penubuhan Negeri Perak — tentang panah yang jatuh ke bumi, tentang perjanjian yang dimeterai di tepi muara — baru kini tiba ke pentas yang selayaknya. Lima ratus tahun kemudian. Tepat pada masanya.",
+      "Hikayat ini telah ada jauh sebelum kita. Sejarah penubuhan Negeri Perak — tentang panah yang jatuh ke bumi, tentang perjanjian yang dimeterai di tepi muara — baru kini menjelang 500 tahun tiba ke pentas yang selayaknya. Tepat pada masanya.",
     "firsts.2.badge": "Kali Pertama",
     "firsts.2.title": "Hologram Dalam Dunia Bangsawan di IB",
     "firsts.2.desc":
@@ -54,7 +54,7 @@ const translations: Record<Language, TranslationDict> = {
     "firsts.3.badge": "Pembukaan Semula",
     "firsts.3.title": "Istana Budaya Membuka Pintunya Semula",
     "firsts.3.desc":
-      "Ada orang yang menunggu bertahun-tahun hanya untuk duduk semula di kerusi merah Istana Budaya. Mereka tidak datang hanya untuk menonton — mereka datang untuk merasai semula sesuatu yang pernah hilang. Pementasan pertama yang mereka pilih adalah pementasan yang akan mereka ceritakan kepada cucu mereka.",
+      "Ada orang yang menunggu bertahun-tahun hanya untuk duduk semula di kerusi merah Istana Budaya. Mereka tidak datang hanya untuk menonton — mereka datang untuk merasai semula sesuatu yang pernah hilang. Pementasan pertama yang mereka pilih adalah pementasan yang akan mereka wariskan kepada generasi akan datang.",
 
     // Contrast — REWORKED: focus on human capital development, not branding exposure
     "contrast.eyebrow": "Bukan Pendedahan Jenama. Pembangunan Modal Insan.",
@@ -62,7 +62,7 @@ const translations: Record<Language, TranslationDict> = {
     "contrast.title.l2": "Bersama Lampu Dipadamkan.",
     "contrast.title.l3": "Ada Yang Terus Hidup Dalam Manusia.",
     "contrast.subtitle":
-      "Yang membezakan bukan jumlah pendedahan jenama. Yang membezakan ialah apa yang tertinggal dalam diri manusia selepas malam itu berlalu — dalam peserta yang tuan-tuan pilih, dalam staff teknikal dan kreatif tuan-tuan yang menyaksikan proses ini, dan dalam modul yang akan terus digunakan bertahun-tahun lamanya.",
+      "Yang membezakan bukan jumlah pendedahan jenama. Yang membezakan ialah apa yang tertinggal dalam diri manusia selepas malam itu berlalu — dalam peserta yang tuan-tuan pilih, dalam pasukan teknikal dan kreatif tuan-tuan yang menyaksikan proses ini, dan dalam modul yang akan terus digunakan bertahun-tahun lamanya.",
     "contrast.bad.label": "Penajaan Acara Biasa",
     "contrast.bad.sublabel": "Semuanya tentang jenama — semuanya berakhir",
     "contrast.bad.1": "Logo kecil di poster yang dilupakan esok hari",
@@ -74,7 +74,7 @@ const translations: Record<Language, TranslationDict> = {
     "contrast.good.sublabel": "Lima pengalaman yang tertinggal dalam manusia",
     "contrast.good.1.title": "Akademi Bangsawan Legasi",
     "contrast.good.1.desc":
-      "Peserta dan staff kreatif tuan-tuan duduk bersama penggiat seni yang membawa 35+ tahun pengalaman di atas pentas. Pemindahan ilmu sebenar — bukan seminar, bukan tayangan slaid.",
+      "Peserta dan pasukan kreatif tuan-tuan duduk bersama penggiat seni yang membawa 35+ tahun pengalaman di atas pentas. Pemindahan ilmu sebenar — bukan seminar, bukan tayangan slaid.",
     "contrast.good.2.title": "Modul Latihan Bertauliah NOSS",
     "contrast.good.2.desc":
       "Bahan rujukan bertaraf kebangsaan yang boleh tuan-tuan bawa balik untuk latihan dalaman syarikat. Nama tuan-tuan tercetak padanya. Ia akan terus digunakan bertahun-tahun selepas malam ini berlalu.",
@@ -83,15 +83,15 @@ const translations: Record<Language, TranslationDict> = {
       "Akses eksklusif ke jantung produksi semasa latihan sedang berjalan. Bukan pelawat biasa — tetamu yang diundang masuk ke tempat orang luar tidak pernah diberi masuk.",
     "contrast.good.4.title": "Akses Sebalik Tabir",
     "contrast.good.4.desc":
-      "Staff teknikal dan kreatif tuan-tuan menyaksikan sendiri proses pengarah, kru, dan pelakon membina sebuah pementasan dari kekosongan. Cara mereka bekerja. Cara mereka menyelesaikan masalah. Cara mereka membawa idea ke pentas.",
+      "Pasukan teknikal dan kreatif tuan-tuan menyaksikan sendiri proses pengarah, kru, dan pelakon membina sebuah pementasan dari yang kosong. Cara mereka bekerja. Cara mereka menyelesaikan masalah. Cara mereka membawa idea ke pentas.",
     "contrast.good.5.title": "Sentuhan Aset Produksi Sebenar",
     "contrast.good.5.desc":
-      "Busana diraja, hiasan pentas yang diukir khas, teknologi holografik pertama di IB. Bukan dalam gambar — di tangan sendiri. Pemahaman konkrit tentang craft yang tidak dapat diperoleh dari mana-mana kursus formal.",
+      "Busana diraja, hiasan pentas yang diukir khas, teknologi holografik pertama di IB. Bukan dalam gambar — di tangan sendiri. Pemahaman konkrit tentang seni ukiran yang tidak dapat diperoleh dari mana-mana kursus formal.",
     "contrast.callout.eyebrow": "Untuk Siapa Program Ini",
     "contrast.callout.title":
       "Bukan Untuk Pasukan Pemasaran. Untuk Pasukan Pembangunan Modal Insan Tuan-tuan.",
     "contrast.callout.body":
-      "Program ini direka untuk staff teknikal dan kreatif tuan-tuan — pasukan yang menghasilkan kandungan, yang membina pengalaman, yang memimpin projek kreatif syarikat. Mereka akan pulang dengan pemahaman tentang process pembangunan teater yang boleh diaplikasikan dalam kerja harian mereka. Itulah nilai yang berkekalan — bukan logo di dewan, tetapi ilmu dalam manusia.",
+      "Program ini direka untuk pasukan teknikal dan kreatif tuan-tuan — pasukan yang menghasilkan kandungan, yang membina pengalaman, yang memimpin projek kreatif syarikat. Mereka akan pulang dengan pemahaman tentang proses pembangunan teater yang boleh diaplikasikan dalam kerja harian mereka. Itulah nilai yang berkekalan — bukan logo di dewan, tetapi ilmu dalam manusia.",
 
     // Video
     "video.eyebrow": "Pementasan Terdahulu",
@@ -110,8 +110,8 @@ const translations: Record<Language, TranslationDict> = {
     "cred.stat1.lbl": "Tahun di atas pentas",
     "cred.stat2.num": "40+",
     "cred.stat2.lbl": "Penggiat seni aktif",
-    "cred.stat3.num": "4",
-    "cred.stat3.lbl": "Negara pernah dikunjungi",
+    "cred.stat3.num": "5",
+    "cred.stat3.lbl": "Negara diwakili",
     "cred.stat4.num": "500",
     "cred.stat4.lbl": "Tahun kesultanan yang diraikan",
     "cred.card1.title": "Sokongan MOTAC",
@@ -131,7 +131,7 @@ const translations: Record<Language, TranslationDict> = {
       "Pakar dari Malaysia, Indonesia, dan Singapura dalam satu produksi. Bukan label semata — mereka bekerja dalam bilik yang sama, ke arah satu matlamat.",
     "cred.card6.title": "Pentas Antarabangsa",
     "cred.card6.desc":
-      "Czech Republic (2016), China (2019), Singapura (2019), Brunei (2022). Kami bukan baru dalam konteks dunia.",
+      "Republik Czech (2016), China (2019), Singapura (2019), Brunei (2022), Riau (2025). Kami bukan baru berdiri di pentas dunia.",
 
     // Offer
     "offer.eyebrow": "Nilai Penajaan",
@@ -149,7 +149,7 @@ const translations: Record<Language, TranslationDict> = {
     "offer.4.title": "Nama Yang Kekal Selepas Malam Ini",
     "offer.4.desc":
       "Modul latihan dengan nama jenama tuan-tuan akan terus diajar, dirujuk, dan digunakan berulang kali — oleh orang yang belum pernah mendengar nama tuan-tuan malam itu.",
-    "offer.5.title": "Bilik Yang Sama Dengan Orang Yang Tepat",
+    "offer.5.title": "Bilik Yang Sama Dengan Figura-Figura Yang Tepat",
     "offer.5.desc":
       "Kerabat DiRaja, barisan kepimpinan kerajaan, tokoh korporat terkemuka. Siapa yang ada dalam dewan malam itu — itu pun ada nilainya yang tidak dapat diukur.",
     "offer.6.title": "Lebih Dari Satu Sempadan",
@@ -301,18 +301,19 @@ const translations: Record<Language, TranslationDict> = {
     "cta.wa": "Hubungi Melalui WhatsApp",
     "cta.pdf": "⬇ Muat Turun Pitch Deck (PDF)",
     "cta.note":
-      "Pertubuhan Bangsawan Warisan Moraza Negeri Perak  ·  Disokong MOTAC  ·  Istana Budaya 2026",
+      "Pertubuhan Bangsawan Warisan Moraza Negeri Perak  ·  Disokong MOTAC  ·  Dengan kerjasama MKN Perak  ·  Istana Budaya 2026",
 
     // Footer
     "footer.title": "Beting Beras Basah II: Hikayat Mahkota Dewa",
     "footer.org": "Pertubuhan Bangsawan Warisan Moraza Negeri Perak",
+    "footer.partner": "Dengan kerjasama Majlis Kebudayaan Negeri Perak",
     "footer.copy":
       "© 2026 Pertubuhan Bangsawan Warisan Moraza Negeri Perak. Semua hak terpelihara.",
 
     // Tags
     "tag.1": "Ekonomi Kreatif Malaysia",
-    "tag.2": "SDG 4: Quality Education",
-    "tag.3": "SDG 8: Decent Work",
+    "tag.2": "SDG 4: Pendidikan Berkualiti",
+    "tag.3": "SDG 8: Pekerjaan Wajar",
     "tag.4": "Kerangka MADANI",
     "tag.5": "NOSS Teater Tahap 4–5",
 
@@ -356,7 +357,7 @@ const translations: Record<Language, TranslationDict> = {
     "prog.discovery.body.1":
       "Bayangkan dari minggu pertama — peserta yang tuan-tuan pilih sendiri, daripada komuniti yang tuan-tuan tentukan sendiri — melangkah masuk ke dalam sebuah alam yang selama ini hanya diketahui oleh segelintir manusia.",
     "prog.discovery.body.2":
-      "Alam di mana set pentas diukir dengan tangan. Di mana kain songket untuk busana diraja ditenun helai demi helai. Di mana seorang pengarah duduk bersemuka dengan pelakonnya dan membina sebuah babak dari kekosongan — perlahan-lahan, sehingga babak itu bernyawa.",
+      "Alam di mana set pentas diukir dengan tangan. Di mana kain songket untuk busana diraja ditenun helai demi helai. Di mana seorang pengarah duduk bersemuka dengan pelakonnya dan membina sebuah babak dari yang kosong — perlahan-lahan, sehingga babak itu bernyawa.",
     "prog.discovery.body.3":
       "Peserta yang tuan-tuan hantar bukan berdiri di luar dan memerhati dari jauh. Mereka berada di dalam bilik itu. Sebahagian daripada denyut nadi produksi itu sendiri.",
     "prog.discovery.cta": "Inilah Program Bangsawan Legasi.",
@@ -398,7 +399,7 @@ const translations: Record<Language, TranslationDict> = {
     "prog.step.5.title": "Sentuhan Terus Dengan Aset Produksi",
     "prog.step.5.duration": "Minggu 6–9",
     "prog.step.5.summary":
-      "Busana diraja yang kain songketnya mengambil berminggu-minggu untuk disiapkan. Prop keris yang diukir oleh tangan pengukir yang mewarisi kepandaian datuknya.",
+      "Busana diraja yang kain songketnya mengambil berminggu-minggu untuk disiapkan. Keris yang diukir oleh tangan pengukir yang mewarisi kepandaian datuknya.",
     "prog.step.5.detail":
       "Peralatan holografik yang akan menghidupkan watak kayangan buat pertama kali di atas pentas Istana Budaya. Peserta tidak melihat semua ini dalam gambar. Mereka menyentuhnya. Mereka merasai berat fabrik itu di tapak tangan. Mereka memahami apa yang diperlukan untuk membawa sebuah hikayat dari atas kertas ke atas pentas.",
     "prog.step.5.deliverable": "Sentuhan artifak sebenar",
@@ -410,7 +411,7 @@ const translations: Record<Language, TranslationDict> = {
       "Dan mereka mengetahui sesuatu yang penonton lain tidak tahu — mereka mengetahui apa yang tersembunyi di sebalik setiap babak yang terbentang di hadapan mereka. Kerana mereka pernah berada di sana ketika babak itu masih belum sempurna. Ini bukan sekadar menonton sebuah pertunjukan. Ini menggenapkan sebuah perjalanan.",
     "prog.step.6.deliverable": "Pengalaman pantas bangsawan",
     "prog.step.7.title": "Penutupan Produksi",
-    "prog.step.7.duration": "Selepas show",
+    "prog.step.7.duration": "Selepas pementasan",
     "prog.step.7.summary":
       "Dari mula hingga pengakhiran. Dari lampu pertama yang dihidupkan sehinggalah lampu terakhir dipadamkan.",
     "prog.step.7.detail":
@@ -628,8 +629,8 @@ const translations: Record<Language, TranslationDict> = {
     "cred.stat1.lbl": "Years on stage",
     "cred.stat2.num": "40+",
     "cred.stat2.lbl": "Active arts practitioners",
-    "cred.stat3.num": "4",
-    "cred.stat3.lbl": "Countries visited",
+    "cred.stat3.num": "5",
+    "cred.stat3.lbl": "Countries represented",
     "cred.stat4.num": "500",
     "cred.stat4.lbl": "Years of sultanate celebrated",
     "cred.card1.title": "MOTAC Endorsement",
@@ -649,7 +650,7 @@ const translations: Record<Language, TranslationDict> = {
       "Experts from Malaysia, Indonesia, and Singapore in one production. Not just a label — they work in the same room, toward one goal.",
     "cred.card6.title": "International Stage",
     "cred.card6.desc":
-      "Czech Republic (2016), China (2019), Singapore (2019), Brunei (2022). We are not new to the world stage.",
+      "Czech Republic (2016), China (2019), Singapore (2019), Brunei (2022), Riau (2025). We are not new to the world stage.",
 
     // Offer
     "offer.eyebrow": "Sponsorship Value",
@@ -667,7 +668,7 @@ const translations: Record<Language, TranslationDict> = {
     "offer.4.title": "A Name That Lasts Beyond This Night",
     "offer.4.desc":
       "Training modules bearing your brand name will continue to be taught, referenced, and used repeatedly — by people who never heard your name that night.",
-    "offer.5.title": "The Same Room With the Right People",
+    "offer.5.title": "The Same Room With the Right Figures",
     "offer.5.desc":
       "Royal family, government leadership, leading corporate figures. Who is in the hall that night — that itself has immeasurable value.",
     "offer.6.title": "More Than One Border",
@@ -817,11 +818,12 @@ const translations: Record<Language, TranslationDict> = {
     "cta.wa": "Contact via WhatsApp",
     "cta.pdf": "⬇ Download Pitch Deck (PDF)",
     "cta.note":
-      "Pertubuhan Bangsawan Warisan Moraza Negeri Perak  ·  Endorsed by MOTAC  ·  Istana Budaya 2026",
+      "Pertubuhan Bangsawan Warisan Moraza Negeri Perak  ·  Endorsed by MOTAC  ·  In collaboration with MKN Perak  ·  Istana Budaya 2026",
 
     // Footer
     "footer.title": "Beting Beras Basah II: Hikayat Mahkota Dewa",
     "footer.org": "Pertubuhan Bangsawan Warisan Moraza Negeri Perak",
+    "footer.partner": "In collaboration with Majlis Kebudayaan Negeri Perak",
     "footer.copy":
       "© 2026 Pertubuhan Bangsawan Warisan Moraza Negeri Perak. All rights reserved.",
 
