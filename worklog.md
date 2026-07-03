@@ -360,3 +360,37 @@ Verification:
 - BM + EN both work (logos are language-neutral)
 - Pushed to GitHub (commit 9daa068)
 - Deployed: https://beting-beras-basah-ii.vercel.app
+
+---
+Task ID: rename-remove-ii
+Agent: main
+Task: Rename per user request - 3 changes
+
+1. Hero title L3: 'Tibalah Masanya.' → 'Tibalah Ke Istana Budaya.'
+   (BM) + 'It Arrives At Istana Budaya.' (EN)
+
+2. All 'Beting Beras Basah II' → 'Teater Bangsawan Beting Basah'
+   Files updated:
+   - src/lib/i18n.tsx (BM + EN, 10+ instances)
+   - src/app/layout.tsx (title, OG title, siteName, OG alt, twitter title)
+   - src/app/program-legasi/page.tsx (title, description, siteName)
+   - src/components/bbb/Hero.tsx (img alt)
+   - src/components/bbb/Packages.tsx (3 WhatsApp message texts)
+   - src/components/bbb/use-whatsapp.ts (2 WhatsApp messages BM + EN)
+
+3. Removed all 'BBB II' mentions:
+   - src/components/bbb/Navbar.tsx: 'BBB II' → 'BBB' (with II as gold span)
+   - src/lib/i18n.tsx: 'Cenderahati BBB eksklusif' → 'Cenderahati Teater
+     Bangsawan eksklusif' (BM pkg.2.f5 + pkg.3.f6)
+   - EN equivalents updated: 'Exclusive BBB souvenir' → 'Exclusive Teater
+     Bangsawan souvenir'
+
+Verification (live):
+- Page <title>: 'Teater Bangsawan Beting Basah — DiRaja 2026 | Istana Budaya'
+- Hero heading: 'Lima Ratus Tahun Menanti. Kini Tibalah Ke Istana Budaya.'
+- Navbar: 'BBB' (not 'BBB II')
+- 0 instances of 'II' on either page
+- 0 lint errors, 0 browser errors
+- BM + EN both work
+- Pushed to GitHub (commit f0d726a)
+- Deployed: https://beting-beras-basah-ii.vercel.app
