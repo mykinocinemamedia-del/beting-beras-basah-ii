@@ -71,7 +71,6 @@ export function Packages() {
         t("pkg.4.f3"),
         t("pkg.4.f4"),
         t("pkg.4.f5"),
-        t("pkg.4.f6"),
       ],
       // Additional deliverables (rendered in second column)
       f7: t("pkg.4.f7"),
@@ -80,6 +79,7 @@ export function Packages() {
       f10: t("pkg.4.f10"),
       f11: t("pkg.4.f11"),
       f12: t("pkg.4.f12"),
+      f13: t("pkg.4.f13"),
       featured: false,
       isLegasi: true,
     },
@@ -167,37 +167,39 @@ export function Packages() {
                       PROGRAM MODAL INSAN
                     </span>
 
-                    {/* Header row: tier + name + price (left) | stats (right) */}
+                    {/* Header row: tier + name + price (full width) */}
                     <div
                       style={{
-                        display: "grid",
-                        gridTemplateColumns: "1.5fr 1fr",
-                        gap: "2rem",
-                        alignItems: "start",
                         marginTop: "1rem",
                       }}
-                      className="legasi-header-grid"
                     >
-                      <div>
-                        <div
-                          style={{
-                            fontSize: "0.625rem",
-                            fontWeight: 700,
-                            letterSpacing: "0.13em",
-                            textTransform: "uppercase",
-                            color: "var(--gold)",
-                            marginBottom: "0.375rem",
-                          }}
-                        >
-                          {pkg.tier}
-                        </div>
+                      <div
+                        style={{
+                          fontSize: "0.625rem",
+                          fontWeight: 700,
+                          letterSpacing: "0.13em",
+                          textTransform: "uppercase",
+                          color: "var(--gold)",
+                          marginBottom: "0.375rem",
+                        }}
+                      >
+                        {pkg.tier}
+                      </div>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "baseline",
+                          gap: "1.5rem",
+                          flexWrap: "wrap",
+                          marginBottom: "0.75rem",
+                        }}
+                      >
                         <div
                           style={{
                             fontFamily: "var(--font-display), serif",
                             fontSize: "2.25rem",
                             fontWeight: 400,
                             color: "var(--cream)",
-                            marginBottom: "0.5rem",
                             lineHeight: 1.1,
                           }}
                         >
@@ -209,97 +211,106 @@ export function Packages() {
                             fontSize: "1.5rem",
                             fontWeight: 300,
                             color: "var(--gold)",
-                            marginBottom: "0.75rem",
                             fontStyle: "italic",
                           }}
                         >
                           {pkg.price}
                         </div>
-                        <p
-                          style={{
-                            fontSize: "0.9375rem",
-                            color: "var(--sage)",
-                            margin: 0,
-                            lineHeight: 1.7,
-                            maxWidth: "520px",
-                          }}
-                        >
-                          {pkg.note}
-                        </p>
-                        <p
-                          style={{
-                            fontSize: "0.8125rem",
-                            color: "var(--gold)",
-                            margin: "0.75rem 0 0 0",
-                            fontStyle: "italic",
-                            letterSpacing: "0.02em",
-                          }}
-                        >
-                          {t("pkg.4.intro")}
-                        </p>
                       </div>
-
-                      {/* Stats column */}
-                      <div
+                      <p
                         style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          gap: "1rem",
-                          padding: "1.25rem",
-                          background: "rgba(7,18,10,0.5)",
-                          border: "1px solid var(--border)",
+                          fontSize: "0.9375rem",
+                          color: "var(--sage)",
+                          margin: 0,
+                          lineHeight: 1.7,
+                          maxWidth: "760px",
                         }}
                       >
-                        <div style={{ textAlign: "center" }}>
-                          <div
-                            style={{
-                              fontFamily: "var(--font-display), serif",
-                              fontSize: "1.75rem",
-                              color: "var(--cream)",
-                              fontWeight: 400,
-                              lineHeight: 1,
-                            }}
-                          >
-                            {t("pkg.4.stats.weeks")}
-                          </div>
-                        </div>
+                        {pkg.note}
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "0.8125rem",
+                          color: "var(--gold)",
+                          margin: "0.75rem 0 0 0",
+                          fontStyle: "italic",
+                          letterSpacing: "0.02em",
+                        }}
+                      >
+                        {t("pkg.4.intro")}
+                      </p>
+                    </div>
+
+                    {/* Stats row — 3 columns, full width, aligns with card */}
+                    <div
+                      style={{
+                        marginTop: "1.5rem",
+                        display: "grid",
+                        gridTemplateColumns: "repeat(3, 1fr)",
+                        gap: "1px",
+                        background: "var(--border)",
+                        border: "1px solid var(--border)",
+                      }}
+                      className="legasi-stats-grid"
+                    >
+                      <div
+                        style={{
+                          background: "rgba(7,18,10,0.5)",
+                          padding: "1.25rem 1rem",
+                          textAlign: "center",
+                        }}
+                      >
                         <div
                           style={{
-                            height: "1px",
-                            background: "var(--border)",
+                            fontFamily: "var(--font-display), serif",
+                            fontSize: "1.5rem",
+                            color: "var(--cream)",
+                            fontWeight: 400,
+                            lineHeight: 1,
+                            marginBottom: "4px",
                           }}
-                        />
-                        <div style={{ textAlign: "center" }}>
-                          <div
-                            style={{
-                              fontFamily: "var(--font-display), serif",
-                              fontSize: "1.75rem",
-                              color: "var(--cream)",
-                              fontWeight: 400,
-                              lineHeight: 1,
-                            }}
-                          >
-                            {t("pkg.4.stats.hours")}
-                          </div>
+                        >
+                          {t("pkg.4.stats.weeks")}
                         </div>
+                      </div>
+                      <div
+                        style={{
+                          background: "rgba(7,18,10,0.5)",
+                          padding: "1.25rem 1rem",
+                          textAlign: "center",
+                        }}
+                      >
                         <div
                           style={{
-                            height: "1px",
-                            background: "var(--border)",
+                            fontFamily: "var(--font-display), serif",
+                            fontSize: "1.5rem",
+                            color: "var(--cream)",
+                            fontWeight: 400,
+                            lineHeight: 1,
+                            marginBottom: "4px",
                           }}
-                        />
-                        <div style={{ textAlign: "center" }}>
-                          <div
-                            style={{
-                              fontFamily: "var(--font-display), serif",
-                              fontSize: "1.75rem",
-                              color: "var(--cream)",
-                              fontWeight: 400,
-                              lineHeight: 1,
-                            }}
-                          >
-                            {t("pkg.4.stats.students")}
-                          </div>
+                        >
+                          {t("pkg.4.stats.hours")}
+                        </div>
+                      </div>
+                      <div
+                        style={{
+                          background: "rgba(7,18,10,0.5)",
+                          padding: "1.25rem 1rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        <div
+                          style={{
+                            fontFamily: "var(--font-display), serif",
+                            fontSize: "1.5rem",
+                            color: "var(--cream)",
+                            fontWeight: 400,
+                            lineHeight: 1,
+                            marginBottom: "4px",
+                          }}
+                        >
+                          {t("pkg.4.stats.students")}
                         </div>
                       </div>
                     </div>
@@ -331,7 +342,7 @@ export function Packages() {
                           {t("pkg.4.section1.label")}
                         </div>
                         <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                          {[pkg.f1, pkg.f2, pkg.f3, pkg.f4, pkg.f5, pkg.f6].map((f, j) => (
+                          {pkg.features.map((f, j) => (
                             <li
                               key={j}
                               style={{
@@ -374,7 +385,7 @@ export function Packages() {
                           {t("pkg.4.section2.label")}
                         </div>
                         <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                          {[pkg.f7, pkg.f8, pkg.f9, pkg.f10, pkg.f11, pkg.f12].map((f, j) => (
+                          {[pkg.f7, pkg.f8, pkg.f9, pkg.f10, pkg.f11, pkg.f12, pkg.f13].map((f, j) => (
                             <li
                               key={j}
                               style={{
@@ -600,7 +611,7 @@ export function Packages() {
 
       <style jsx>{`
         @media (max-width: 768px) {
-          :global(.legasi-header-grid) {
+          :global(.legasi-stats-grid) {
             grid-template-columns: 1fr !important;
           }
           :global(.legasi-features-grid) {
