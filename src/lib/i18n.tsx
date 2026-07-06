@@ -263,6 +263,20 @@ const translations: Record<Language, TranslationDict> = {
     "pkg.3.f8": "Akses Program Bangsawan Legasi",
     "pkg.btn": "Berhubung Dengan Kami →",
 
+    // Package 4 — Program Bangsawan Legasi (special card with link)
+    "pkg.4.tier": "Program Khas",
+    "pkg.4.name": "Bangsawan Legasi",
+    "pkg.4.price": "Program Modal Insan",
+    "pkg.4.note": "Bukan sekadar penajaan. Pembangunan modal insan yang berkekalan.",
+    "pkg.4.f1": "Akademi Bangsawan Legasi (35+ tahun ilmu)",
+    "pkg.4.f2": "Modul Latihan Bertauliah NOSS",
+    "pkg.4.f3": "Lawatan berpandu ke Istana Budaya",
+    "pkg.4.f4": "Akses sebalik tabir produksi",
+    "pkg.4.f5": "Sentuhan aset produksi sebenar",
+    "pkg.4.f6": "Kohort bernama rasmi (Waris [Syarikat] 2026)",
+    "pkg.4.cta.primary": "Tengok Maklumat Penuh →",
+    "pkg.4.cta.secondary": "Berhubung Dengan Kami",
+
     // Legasi
     "legasi.eyebrow":
       "Untuk Penaja yang Memerlukan Lebih Dari Sekadar Logo",
@@ -852,6 +866,20 @@ const translations: Record<Language, TranslationDict> = {
     "pkg.3.f7": "5% donation to Charity Fund",
     "pkg.3.f8": "Access to Bangsawan Legacy Program",
     "pkg.btn": "Get In Touch →",
+
+    // Package 4 — Program Bangsawan Legasi (special card with link) — EN
+    "pkg.4.tier": "Special Program",
+    "pkg.4.name": "Bangsawan Legacy",
+    "pkg.4.price": "Human Capital Program",
+    "pkg.4.note": "Not just sponsorship. Lasting human capital development.",
+    "pkg.4.f1": "Bangsawan Legacy Academy (35+ years knowledge)",
+    "pkg.4.f2": "Accredited NOSS Training Module",
+    "pkg.4.f3": "Guided tour of Istana Budaya",
+    "pkg.4.f4": "Behind the scenes access",
+    "pkg.4.f5": "Touch real production assets",
+    "pkg.4.f6": "Official named cohort (Waris [Company] 2026)",
+    "pkg.4.cta.primary": "View Full Details →",
+    "pkg.4.cta.secondary": "Get In Touch",
 
     // Legasi
     "legasi.eyebrow":

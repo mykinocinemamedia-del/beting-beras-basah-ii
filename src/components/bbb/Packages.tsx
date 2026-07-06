@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useLang } from "@/lib/i18n";
 import Reveal from "./Reveal";
 import { useWhatsApp } from "./use-whatsapp";
@@ -18,6 +19,7 @@ export function Packages() {
       featured: false,
       waText:
         "Salam, saya berminat dengan Pakej Saujana untuk penajaan Teater Bangsawan Beting Basah.",
+      isLegasi: false,
     },
     {
       tier: t("pkg.2.tier"),
@@ -35,6 +37,7 @@ export function Packages() {
       badge: t("pkg.2.badge"),
       waText:
         "Salam, saya berminat dengan Pakej Sinar Warisan untuk penajaan Teater Bangsawan Beting Basah.",
+      isLegasi: false,
     },
     {
       tier: t("pkg.3.tier"),
@@ -54,6 +57,24 @@ export function Packages() {
       featured: false,
       waText:
         "Salam, saya berminat dengan Pakej Wira Budaya untuk penajaan Teater Bangsawan Beting Basah.",
+      isLegasi: false,
+    },
+    {
+      // Package 4 — Program Bangsawan Legasi (special card with link to /program-legasi)
+      tier: t("pkg.4.tier"),
+      name: t("pkg.4.name"),
+      price: t("pkg.4.price"),
+      note: t("pkg.4.note"),
+      features: [
+        t("pkg.4.f1"),
+        t("pkg.4.f2"),
+        t("pkg.4.f3"),
+        t("pkg.4.f4"),
+        t("pkg.4.f5"),
+        t("pkg.4.f6"),
+      ],
+      featured: false,
+      isLegasi: true,
     },
   ];
 
@@ -96,7 +117,7 @@ export function Packages() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
               gap: "1.5px",
               background: "var(--border)",
               border: "1px solid var(--border)",
@@ -104,7 +125,171 @@ export function Packages() {
             }}
           >
             {packages.map((pkg, i) => {
-              const waHref = `https://wa.me/60176635990?text=${encodeURIComponent(pkg.waText)}`;
+              const waHref = `https://wa.me/60176635990?text=${encodeURIComponent(pkg.waText || "")}`;
+
+              // Special card for Program Bangsawan Legasi
+              if (pkg.isLegasi) {
+                return (
+                  <div
+                    key={i}
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #112718 0%, #0C1F11 100%)",
+                      padding: "2.5rem 2rem",
+                      position: "relative",
+                      borderTop: "3px solid var(--gold)",
+                    }}
+                  >
+                    {/* Highlight badge */}
+                    <span
+                      style={{
+                        position: "absolute",
+                        top: "-1px",
+                        left: "50%",
+                        transform: "translateX(-50%)",
+                        background: "var(--cream)",
+                        color: "#07120A",
+                        fontSize: "0.5rem",
+                        fontWeight: 800,
+                        letterSpacing: "0.12em",
+                        padding: "4px 16px",
+                        whiteSpace: "nowrap",
+                      }}
+                    >
+                      PROGRAM MODAL INSAN
+                    </span>
+
+                    <div
+                      style={{
+                        fontSize: "0.625rem",
+                        fontWeight: 700,
+                        letterSpacing: "0.13em",
+                        textTransform: "uppercase",
+                        color: "var(--gold)",
+                        marginBottom: "0.375rem",
+                        marginTop: "1.5rem",
+                      }}
+                    >
+                      {pkg.tier}
+                    </div>
+                    <div
+                      style={{
+                        fontFamily: "var(--font-display), serif",
+                        fontSize: "1.875rem",
+                        fontWeight: 400,
+                        color: "var(--cream)",
+                        marginBottom: "0.25rem",
+                      }}
+                    >
+                      {pkg.name}
+                    </div>
+                    <div
+                      style={{
+                        fontFamily: "var(--font-display), serif",
+                        fontSize: "1.375rem",
+                        fontWeight: 300,
+                        color: "var(--gold)",
+                        marginBottom: "0.5rem",
+                        fontStyle: "italic",
+                      }}
+                    >
+                      {pkg.price}
+                    </div>
+                    <p
+                      style={{
+                        fontSize: "0.8125rem",
+                        color: "var(--sage)",
+                        marginBottom: "1.5rem",
+                        margin: "0 0 1.5rem 0",
+                        lineHeight: 1.6,
+                        fontStyle: "italic",
+                      }}
+                    >
+                      {pkg.note}
+                    </p>
+                    <div
+                      style={{
+                        height: "1px",
+                        background: "var(--border-strong)",
+                        marginBottom: "1.5rem",
+                      }}
+                    />
+                    <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                      {pkg.features.map((f, j) => (
+                        <li
+                          key={j}
+                          style={{
+                            display: "flex",
+                            gap: "10px",
+                            alignItems: "flex-start",
+                            fontSize: "0.8125rem",
+                            color: "var(--cream)",
+                            marginBottom: "10px",
+                            lineHeight: 1.5,
+                          }}
+                        >
+                          <span
+                            style={{
+                              color: "var(--gold)",
+                              flexShrink: 0,
+                              fontWeight: 700,
+                            }}
+                          >
+                            ✓
+                          </span>
+                          <span>{f}</span>
+                        </li>
+                      ))}
+                    </ul>
+
+                    {/* Primary CTA — link to /program-legasi */}
+                    <Link
+                      href="/program-legasi"
+                      style={{
+                        display: "block",
+                        textAlign: "center",
+                        marginTop: "1.5rem",
+                        padding: "13px 24px",
+                        background: "var(--gold)",
+                        color: "#07120A",
+                        textDecoration: "none",
+                        fontSize: "0.8125rem",
+                        fontWeight: 700,
+                        letterSpacing: "0.05em",
+                        transition: "all 0.2s",
+                        border: "1px solid var(--gold)",
+                      }}
+                    >
+                      {t("pkg.4.cta.primary")}
+                    </Link>
+
+                    {/* Secondary CTA — WhatsApp */}
+                    <a
+                      href={waLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        display: "block",
+                        textAlign: "center",
+                        marginTop: "0.5rem",
+                        padding: "11px 24px",
+                        border: "1px solid var(--border-strong)",
+                        background: "transparent",
+                        color: "var(--sage)",
+                        textDecoration: "none",
+                        fontSize: "0.75rem",
+                        fontWeight: 600,
+                        letterSpacing: "0.05em",
+                        transition: "all 0.2s",
+                      }}
+                    >
+                      {t("pkg.4.cta.secondary")}
+                    </a>
+                  </div>
+                );
+              }
+
+              // Standard package card
               return (
                 <div
                   key={i}
