@@ -28,8 +28,8 @@ export default function Home() {
         <Credibility />
         <OfficialSupport />
         <Offer />
-        <Packages />
         <Legasi />
+        <Packages />
         <FAQ />
         <ContactForm />
         <FinalCTA />

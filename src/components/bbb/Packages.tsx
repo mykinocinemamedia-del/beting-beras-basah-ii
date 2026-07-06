@@ -73,6 +73,13 @@ export function Packages() {
         t("pkg.4.f5"),
         t("pkg.4.f6"),
       ],
+      // Additional deliverables (rendered in second column)
+      f7: t("pkg.4.f7"),
+      f8: t("pkg.4.f8"),
+      f9: t("pkg.4.f9"),
+      f10: t("pkg.4.f10"),
+      f11: t("pkg.4.f11"),
+      f12: t("pkg.4.f12"),
       featured: false,
       isLegasi: true,
     },
@@ -127,7 +134,7 @@ export function Packages() {
             {packages.map((pkg, i) => {
               const waHref = `https://wa.me/60176635990?text=${encodeURIComponent(pkg.waText || "")}`;
 
-              // Special card for Program Bangsawan Legasi
+              // Special card for Program Bangsawan Legasi (full-width, detailed)
               if (pkg.isLegasi) {
                 return (
                   <div
@@ -138,6 +145,7 @@ export function Packages() {
                       padding: "2.5rem 2rem",
                       position: "relative",
                       borderTop: "3px solid var(--gold)",
+                      gridColumn: "1 / -1", // span all columns (full width)
                     }}
                   >
                     {/* Highlight badge */}
@@ -159,132 +167,295 @@ export function Packages() {
                       PROGRAM MODAL INSAN
                     </span>
 
+                    {/* Header row: tier + name + price (left) | stats (right) */}
                     <div
                       style={{
-                        fontSize: "0.625rem",
-                        fontWeight: 700,
-                        letterSpacing: "0.13em",
-                        textTransform: "uppercase",
-                        color: "var(--gold)",
-                        marginBottom: "0.375rem",
-                        marginTop: "1.5rem",
+                        display: "grid",
+                        gridTemplateColumns: "1.5fr 1fr",
+                        gap: "2rem",
+                        alignItems: "start",
+                        marginTop: "1rem",
                       }}
+                      className="legasi-header-grid"
                     >
-                      {pkg.tier}
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "var(--font-display), serif",
-                        fontSize: "1.875rem",
-                        fontWeight: 400,
-                        color: "var(--cream)",
-                        marginBottom: "0.25rem",
-                      }}
-                    >
-                      {pkg.name}
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "var(--font-display), serif",
-                        fontSize: "1.375rem",
-                        fontWeight: 300,
-                        color: "var(--gold)",
-                        marginBottom: "0.5rem",
-                        fontStyle: "italic",
-                      }}
-                    >
-                      {pkg.price}
-                    </div>
-                    <p
-                      style={{
-                        fontSize: "0.8125rem",
-                        color: "var(--sage)",
-                        marginBottom: "1.5rem",
-                        margin: "0 0 1.5rem 0",
-                        lineHeight: 1.6,
-                        fontStyle: "italic",
-                      }}
-                    >
-                      {pkg.note}
-                    </p>
-                    <div
-                      style={{
-                        height: "1px",
-                        background: "var(--border-strong)",
-                        marginBottom: "1.5rem",
-                      }}
-                    />
-                    <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                      {pkg.features.map((f, j) => (
-                        <li
-                          key={j}
+                      <div>
+                        <div
                           style={{
-                            display: "flex",
-                            gap: "10px",
-                            alignItems: "flex-start",
-                            fontSize: "0.8125rem",
-                            color: "var(--cream)",
-                            marginBottom: "10px",
-                            lineHeight: 1.5,
+                            fontSize: "0.625rem",
+                            fontWeight: 700,
+                            letterSpacing: "0.13em",
+                            textTransform: "uppercase",
+                            color: "var(--gold)",
+                            marginBottom: "0.375rem",
                           }}
                         >
-                          <span
+                          {pkg.tier}
+                        </div>
+                        <div
+                          style={{
+                            fontFamily: "var(--font-display), serif",
+                            fontSize: "2.25rem",
+                            fontWeight: 400,
+                            color: "var(--cream)",
+                            marginBottom: "0.5rem",
+                            lineHeight: 1.1,
+                          }}
+                        >
+                          {pkg.name}
+                        </div>
+                        <div
+                          style={{
+                            fontFamily: "var(--font-display), serif",
+                            fontSize: "1.5rem",
+                            fontWeight: 300,
+                            color: "var(--gold)",
+                            marginBottom: "0.75rem",
+                            fontStyle: "italic",
+                          }}
+                        >
+                          {pkg.price}
+                        </div>
+                        <p
+                          style={{
+                            fontSize: "0.9375rem",
+                            color: "var(--sage)",
+                            margin: 0,
+                            lineHeight: 1.7,
+                            maxWidth: "520px",
+                          }}
+                        >
+                          {pkg.note}
+                        </p>
+                        <p
+                          style={{
+                            fontSize: "0.8125rem",
+                            color: "var(--gold)",
+                            margin: "0.75rem 0 0 0",
+                            fontStyle: "italic",
+                            letterSpacing: "0.02em",
+                          }}
+                        >
+                          {t("pkg.4.intro")}
+                        </p>
+                      </div>
+
+                      {/* Stats column */}
+                      <div
+                        style={{
+                          display: "flex",
+                          flexDirection: "column",
+                          gap: "1rem",
+                          padding: "1.25rem",
+                          background: "rgba(7,18,10,0.5)",
+                          border: "1px solid var(--border)",
+                        }}
+                      >
+                        <div style={{ textAlign: "center" }}>
+                          <div
                             style={{
-                              color: "var(--gold)",
-                              flexShrink: 0,
-                              fontWeight: 700,
+                              fontFamily: "var(--font-display), serif",
+                              fontSize: "1.75rem",
+                              color: "var(--cream)",
+                              fontWeight: 400,
+                              lineHeight: 1,
                             }}
                           >
-                            ✓
-                          </span>
-                          <span>{f}</span>
-                        </li>
-                      ))}
-                    </ul>
+                            {t("pkg.4.stats.weeks")}
+                          </div>
+                        </div>
+                        <div
+                          style={{
+                            height: "1px",
+                            background: "var(--border)",
+                          }}
+                        />
+                        <div style={{ textAlign: "center" }}>
+                          <div
+                            style={{
+                              fontFamily: "var(--font-display), serif",
+                              fontSize: "1.75rem",
+                              color: "var(--cream)",
+                              fontWeight: 400,
+                              lineHeight: 1,
+                            }}
+                          >
+                            {t("pkg.4.stats.hours")}
+                          </div>
+                        </div>
+                        <div
+                          style={{
+                            height: "1px",
+                            background: "var(--border)",
+                          }}
+                        />
+                        <div style={{ textAlign: "center" }}>
+                          <div
+                            style={{
+                              fontFamily: "var(--font-display), serif",
+                              fontSize: "1.75rem",
+                              color: "var(--cream)",
+                              fontWeight: 400,
+                              lineHeight: 1,
+                            }}
+                          >
+                            {t("pkg.4.stats.students")}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-                    {/* Primary CTA — link to /program-legasi */}
-                    <Link
-                      href="/program-legasi"
+                    {/* Two-column features: Program Elements + What You Bring Home */}
+                    <div
                       style={{
-                        display: "block",
-                        textAlign: "center",
-                        marginTop: "1.5rem",
-                        padding: "13px 24px",
-                        background: "var(--gold)",
-                        color: "#07120A",
-                        textDecoration: "none",
-                        fontSize: "0.8125rem",
-                        fontWeight: 700,
-                        letterSpacing: "0.05em",
-                        transition: "all 0.2s",
-                        border: "1px solid var(--gold)",
+                        marginTop: "2rem",
+                        paddingTop: "2rem",
+                        borderTop: "1px solid var(--border)",
+                        display: "grid",
+                        gridTemplateColumns: "1fr 1fr",
+                        gap: "2rem",
+                      }}
+                      className="legasi-features-grid"
+                    >
+                      {/* Section 1: 5 Elemen Program */}
+                      <div>
+                        <div
+                          style={{
+                            fontSize: "0.625rem",
+                            color: "var(--gold)",
+                            letterSpacing: "0.13em",
+                            textTransform: "uppercase",
+                            fontWeight: 700,
+                            marginBottom: "1rem",
+                          }}
+                        >
+                          {t("pkg.4.section1.label")}
+                        </div>
+                        <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                          {[pkg.f1, pkg.f2, pkg.f3, pkg.f4, pkg.f5, pkg.f6].map((f, j) => (
+                            <li
+                              key={j}
+                              style={{
+                                display: "flex",
+                                gap: "10px",
+                                alignItems: "flex-start",
+                                fontSize: "0.875rem",
+                                color: "var(--cream)",
+                                marginBottom: "10px",
+                                lineHeight: 1.5,
+                              }}
+                            >
+                              <span
+                                style={{
+                                  color: "var(--gold)",
+                                  flexShrink: 0,
+                                  fontWeight: 700,
+                                }}
+                              >
+                                ✓
+                              </span>
+                              <span>{f}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Section 2: Apa Yang Bawa Pulang */}
+                      <div>
+                        <div
+                          style={{
+                            fontSize: "0.625rem",
+                            color: "var(--gold)",
+                            letterSpacing: "0.13em",
+                            textTransform: "uppercase",
+                            fontWeight: 700,
+                            marginBottom: "1rem",
+                          }}
+                        >
+                          {t("pkg.4.section2.label")}
+                        </div>
+                        <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                          {[pkg.f7, pkg.f8, pkg.f9, pkg.f10, pkg.f11, pkg.f12].map((f, j) => (
+                            <li
+                              key={j}
+                              style={{
+                                display: "flex",
+                                gap: "10px",
+                                alignItems: "flex-start",
+                                fontSize: "0.875rem",
+                                color: "var(--cream)",
+                                marginBottom: "10px",
+                                lineHeight: 1.5,
+                              }}
+                            >
+                              <span
+                                style={{
+                                  color: "var(--gold)",
+                                  flexShrink: 0,
+                                  fontWeight: 700,
+                                }}
+                              >
+                                ★
+                              </span>
+                              <span>{f}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* CTA row */}
+                    <div
+                      style={{
+                        marginTop: "2rem",
+                        paddingTop: "1.5rem",
+                        borderTop: "1px solid var(--border)",
+                        display: "flex",
+                        gap: "0.75rem",
+                        justifyContent: "center",
+                        flexWrap: "wrap",
                       }}
                     >
-                      {t("pkg.4.cta.primary")}
-                    </Link>
-
-                    {/* Secondary CTA — WhatsApp */}
-                    <a
-                      href={waLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{
-                        display: "block",
-                        textAlign: "center",
-                        marginTop: "0.5rem",
-                        padding: "11px 24px",
-                        border: "1px solid var(--border-strong)",
-                        background: "transparent",
-                        color: "var(--sage)",
-                        textDecoration: "none",
-                        fontSize: "0.75rem",
-                        fontWeight: 600,
-                        letterSpacing: "0.05em",
-                        transition: "all 0.2s",
-                      }}
-                    >
-                      {t("pkg.4.cta.secondary")}
-                    </a>
+                      <Link
+                        href="/program-legasi"
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          padding: "14px 32px",
+                          background: "var(--gold)",
+                          color: "#07120A",
+                          textDecoration: "none",
+                          fontSize: "0.875rem",
+                          fontWeight: 700,
+                          letterSpacing: "0.05em",
+                          transition: "all 0.2s",
+                          border: "1px solid var(--gold)",
+                        }}
+                      >
+                        {t("pkg.4.cta.primary")}
+                      </Link>
+                      <a
+                        href={waLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          padding: "14px 32px",
+                          border: "1px solid var(--border-strong)",
+                          background: "transparent",
+                          color: "var(--cream)",
+                          textDecoration: "none",
+                          fontSize: "0.8125rem",
+                          fontWeight: 600,
+                          letterSpacing: "0.05em",
+                          transition: "all 0.2s",
+                        }}
+                      >
+                        {t("pkg.4.cta.secondary")}
+                      </a>
+                    </div>
                   </div>
                 );
               }
@@ -426,6 +597,17 @@ export function Packages() {
           </div>
         </div>
       </Reveal>
+
+      <style jsx>{`
+        @media (max-width: 768px) {
+          :global(.legasi-header-grid) {
+            grid-template-columns: 1fr !important;
+          }
+          :global(.legasi-features-grid) {
+            grid-template-columns: 1fr !important;
+          }
+        }
+      `}</style>
     </section>
   );
 }
