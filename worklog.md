@@ -394,3 +394,56 @@ Verification (live):
 - BM + EN both work
 - Pushed to GitHub (commit f0d726a)
 - Deployed: https://beting-beras-basah-ii.vercel.app
+
+---
+Task ID: add-legasi-package-card
+Agent: main
+Task: Add 'Program Bangsawan Legasi' as 4th package card with link to /program-legasi
+
+User request: "Program bangsawan legasi kena ada dalam package ni boleh
+letak di hujung kanan dan ada link untuk tengok maklumat lanjut
+mengenai program tu"
+
+Changes:
+1. Added 4th package card at far right of Packages section
+   - Distinct styling: gradient bg (112718 -> 0C1F11), gold top border,
+     italic gold price display
+   - Badge: 'PROGRAM MODAL INSAN' (BM) / 'HUMAN CAPITAL DEVELOPMENT PROGRAM' (EN)
+   - Tier: 'Program Khas' / 'Special Program'
+   - Name: 'Bangsawan Legasi' / 'Bangsawan Legacy'
+   - Price: 'Program Modal Insan' (italic, gold) — NOT RM amount
+   - Note: 'Bukan sekadar penajaan. Pembangunan modal insan yang berkekalan.'
+   - 6 features:
+     1. Akademi Bangsawan Legasi (35+ tahun ilmu)
+     2. Modul Latihan Bertauliah NOSS
+     3. Lawatan berpandu ke Istana Budaya
+     4. Akses sebalik tabir produksi
+     5. Sentuhan aset produksi sebenar
+     6. Kohort bernama rasmi (Waris [Syarikat] 2026)
+
+2. TWO CTAs on the card:
+   - PRIMARY: 'Tengok Maklumat Penuh →' (links to /program-legasi)
+     Gold background, bold, prominent
+   - SECONDARY: 'Berhubung Dengan Kami' (WhatsApp)
+     Outline style, smaller
+
+3. Layout adjustment:
+   - Grid: repeat(auto-fit, minmax(280px, 1fr)) → minmax(260px, 1fr)
+   - Allows 4 cards to fit comfortably on desktop
+
+13 new i18n keys added (BM + EN):
+- pkg.4.tier, pkg.4.name, pkg.4.price, pkg.4.note
+- pkg.4.f1 through pkg.4.f6
+- pkg.4.cta.primary, pkg.4.cta.secondary
+
+Files modified:
+- src/components/bbb/Packages.tsx (added isLegasi branch + Link import)
+- src/lib/i18n.tsx (BM + EN translations for new keys)
+
+Verification (live):
+- 4 packages display correctly on desktop
+- Link 'Tengok Maklumat Penuh →' navigates to /program-legasi (verified)
+- EN toggle: 'Bangsawan Legacy' / 'View Full Details →' (verified)
+- 0 lint errors, 0 browser errors
+- Pushed to GitHub (commit d56ee86)
+- Deployed: https://beting-beras-basah-ii.vercel.app
