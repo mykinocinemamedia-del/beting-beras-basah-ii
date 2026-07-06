@@ -447,3 +447,68 @@ Verification (live):
 - 0 lint errors, 0 browser errors
 - Pushed to GitHub (commit d56ee86)
 - Deployed: https://beting-beras-basah-ii.vercel.app
+
+---
+Task ID: reorder-packages-expand-legasi-card
+Agent: main
+Task: Reorder Packages after Legasi + expand Bangsawan Legasi card details
+
+User request: "section package tu duduk lepas bangsawan legasi section,
+dan bangsawan legasi package tu make it more detail apa yang mereka
+akan dapat"
+
+1. REORDER page sections (page.tsx):
+   BEFORE: Offer → Packages → Legasi → FAQ
+   AFTER:  Offer → Legasi → Packages → FAQ
+   Investor now sees Legasi intro first, then chooses package
+
+2. EXPANDED Bangsawan Legasi card:
+   Was: 6 features in narrow card
+   Now: Full-width card (gridColumn: 1 / -1) with 3 sections:
+
+   A) Header (2 columns):
+      - Left: tier + name + price + note + intro tagline
+      - Right: 3 stats box (8-12 weeks, 96-120 hours, 20-30 participants)
+
+   B) Two-column features (2 columns):
+      - Section 1 '5 Elemen Program' (6 items, ✓ checkmarks):
+        1. Akademi Bangsawan Legasi (35+ tahun ilmu)
+        2. Modul Latihan Bertauliah NOSS
+        3. Lawatan berpandu ke Istana Budaya
+        4. Akses sebalik tabir produksi
+        5. Sentuhan aset produksi sebenar
+        6. Kohort bernama rasmi (Waris [Syarikat] 2026)
+      - Section 2 'Apa Yang Tuan-tuan Bawa Pulang' (6 items, ★ stars):
+        7. Modul latihan boleh bawa balik untuk latihan dalaman
+        8. Laporan program lengkap (bilangan peserta, jam, sijil)
+        9. Dokumentasi sedia guna (gambar + video setiap sesi)
+        10. Kredit harta intelek kekal pada modul
+        11. Sijil penyertaan rasmi setiap peserta
+        12. Kelayakan potongan cukai (Perenggan 34(6)(k))
+
+   C) CTA row (centered, 2 buttons):
+      - Primary: 'Tengok Maklumat Penuh →' (gold, links to /program-legasi)
+      - Secondary: 'Berhubung Dengan Kami' (outline, WhatsApp)
+
+   Mobile responsive: both header + features grids collapse to 1 column
+
+17 new i18n keys (BM + EN):
+- pkg.4.intro, pkg.4.section1.label, pkg.4.section2.label
+- pkg.4.f7 through pkg.4.f12
+- pkg.4.stats.hours, pkg.4.stats.students, pkg.4.stats.weeks
+
+Files modified:
+- src/app/page.tsx (reorder: Legasi before Packages)
+- src/components/bbb/Packages.tsx (Legasi card expanded, full-width)
+- src/lib/i18n.tsx (BM + EN translations for new keys)
+
+Verification (live):
+- Section order: Offer → Legasi → Packages → FAQ (verified)
+- 12 deliverables display (6 program elements + 6 things to bring home)
+- 3 stats display (8-12 weeks, 96-120 hours, 20-30 participants)
+- Link 'Tengok Maklumat Penuh →' navigates to /program-legasi (verified)
+- 0 lint errors, 0 browser errors
+- BM + EN both work
+- Mobile responsive
+- Pushed to GitHub (commit bbebc49)
+- Deployed: https://beting-beras-basah-ii.vercel.app
