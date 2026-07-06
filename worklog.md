@@ -512,3 +512,46 @@ Verification (live):
 - Mobile responsive
 - Pushed to GitHub (commit bbebc49)
 - Deployed: https://beting-beras-basah-ii.vercel.app
+
+---
+Task ID: fix-stats-alignment-5-elemen
+Agent: main
+Task: Fix 2 issues with Bangsawan Legasi card per user screenshot
+
+User feedback:
+1. "kotak 3 tu boleh rapat align sama dengan package legasi bawah"
+   - Stats boxes (8-12 minggu, 96-120 jam, 20-30 peserta) were vertical
+     column in header right side, not aligned with card width
+2. "5 Elemen Program tu kosong, kenapa 5 dan apa 5 tu?"
+   - Label said "5 Elemen Program" but had 6 items (Kohort included)
+   - User questioned why "5" when 6 items listed
+
+Fixes:
+1. Stats: moved from vertical column (header right) to horizontal
+   3-column row below header, full width, aligns with card Legasi width
+2. 5 Elemen Program: removed "Kohort bernama rasmi" (it's a deliverable,
+   not a program element). Now exactly 5 items:
+   1. Akademi Bangsawan Legasi (35+ tahun ilmu)
+   2. Modul Latihan Bertauliah NOSS
+   3. Lawatan berpandu ke Istana Budaya
+   4. Akses sebalik tabir produksi
+   5. Sentuhan aset produksi sebenar
+3. Kohort moved to "Apa Yang Bawa Pulang" as first item (now 7 items)
+
+i18n changes (BM + EN):
+- Removed: pkg.4.f6 (Kohort - moved to deliverables)
+- Added: pkg.4.f13 (Kelayakan potongan cukai - was f12, now f13)
+- Renumbered: f7 = Kohort (was f7 = Modul bawa balik)
+
+Layout changes:
+- Header: 2-column grid (text + stats) → single full-width column
+- Stats: vertical column → horizontal 3-column row (repeat(3, 1fr))
+- Mobile: stats grid collapses to 1 column
+
+Verification (live):
+- 5 Elemen Program shows exactly 5 items (verified)
+- Stats: 3 horizontal columns aligned with card width (verified)
+- Kohort now first item in Bawa Pulang (verified)
+- 0 lint errors, 0 browser errors
+- Pushed to GitHub (commit 0c284d2)
+- Deployed: https://beting-beras-basah-ii.vercel.app
