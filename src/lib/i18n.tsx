@@ -617,6 +617,112 @@ const translations: Record<Language, TranslationDict> = {
     "legasi.cta.full": "Lihat Penerangan Penuh →",
     "legasi.cta.full.sub": "Laman web khas untuk CSR & pasukan pengurusan",
 
+    // ═══════════════════════════════════════════════════════
+    // PENAJAAN RASMI PAGE (/penajaan-rasmi) — BM
+    // ═══════════════════════════════════════════════════════
+    "sp.nav.back": "← Kembali ke Laman Utama",
+    "sp.nav.cta": "Hubungi Kami →",
+
+    // Hero
+    "sp.hero.eyebrow": "Penajaan & Saluran Rasmi",
+    "sp.hero.title": "Jadilah Sebahagian Daripada Sejarah",
+    "sp.hero.body":
+      "Beting Beras Basah: Hikayat Mahkota Dewa — hikayat kemahakotaan Kesultanan Perak buat pertama kalinya di pentas Istana Budaya, sempena 500 tahun Kesultanan Perak, dengan teknologi holografik pertama dalam sejarah bangsawan di IB.",
+    "sp.hero.body2":
+      "Kami menjemput syarikat korporat, GLC dan yayasan untuk menaja produksi legasi ini melalui Program Bangsawan Legasi — inisiatif pembangunan modal insan dan pemuliharaan warisan yang layak dilaporkan sebagai program CSR organisasi tuan-tuan.",
+    "sp.hero.cta1": "Muat Turun Cadangan Penajaan",
+    "sp.hero.cta2": "Hubungi Kami",
+
+    // Cara Menjadi Penaja
+    "sp.process.eyebrow": "Cara Menjadi Penaja",
+    "sp.process.title": "Proses Penajaan Rasmi — 5 Langkah",
+    "sp.process.note":
+      "Setiap ringgit direkodkan. Setiap penaja menerima invois bernombor, resit rasmi, dan laporan pemenuhan.",
+    "sp.step.1.title": "Hubungi Kami",
+    "sp.step.1.desc": "Melalui e-mel hello@kino.my atau +6017-663 5990.",
+    "sp.step.2.title": "Terima Cadangan Penajaan Rasmi",
+    "sp.step.2.desc": "Berserta pakej dan manfaat (Platinum / Gold / Silver / rakan strategik).",
+    "sp.step.3.title": "Rundingan & Persetujuan",
+    "sp.step.3.desc": "Dimeterai melalui Perjanjian Penajaan bertulis yang ditandatangani kedua-dua pihak.",
+    "sp.step.4.title": "Invois Rasmi",
+    "sp.step.4.desc": "Dikeluarkan oleh Kino Studios Sdn. Bhd. — bayaran terus ke akaun syarikat sahaja.",
+    "sp.step.5.title": "Resit Rasmi & Pelaksanaan Manfaat",
+    "sp.step.5.desc": "Branding, tiket VIP, publisiti dan laporan pemenuhan selepas produksi.",
+
+    // Saluran Rasmi
+    "sp.channel.eyebrow": "Saluran Rasmi Produksi",
+    "sp.channel.title": "Saluran Rasmi Produksi",
+    "sp.channel.org": "Penganjur",
+    "sp.channel.org.value": "Kino Studios Sdn. Bhd. (002138666-M) — KinoCinema Media",
+    "sp.channel.email": "E-mel rasmi",
+    "sp.channel.email.value": "hello@kino.my",
+    "sp.channel.phone": "Telefon / WhatsApp",
+    "sp.channel.phone.value": "+6017-663 5990",
+    "sp.channel.web": "Laman web",
+    "sp.channel.web.value": "www.kino.my",
+    "sp.channel.warning":
+      "Bayaran hanya sah melalui akaun bank Kino Studios Sdn. Bhd., dengan invois rasmi. Kami tidak menerima tunai dan tidak pernah meminta bayaran ke akaun peribadi, e-wallet peribadi, atau melalui individu.",
+
+    // Amaran Penipuan
+    "sp.warn.eyebrow": "Notis Penting",
+    "sp.warn.title": "Awas Penipuan",
+    "sp.warn.body":
+      "Mana-mana individu atau pihak yang mengutip derma, menjual pakej penajaan, atau menjual \"tiket awal\" atas nama produksi ini tanpa Surat Perlantikan rasmi daripada Kino Studios Sdn. Bhd. adalah TIDAK SAH.",
+    "sp.warn.1": "Wakil rasmi kami membawa Surat Perlantikan di atas kepala surat syarikat — dan tiada seorang pun wakil dibenarkan menerima bayaran.",
+    "sp.warn.2": "Ragu-ragu? Sahkan dahulu di hello@kino.my sebelum membuat sebarang bayaran. Kami akan sahkan dalam 1 hari bekerja.",
+    "sp.warn.3": "Menemui kutipan tanpa kebenaran? Laporkan kepada kami dan pihak polis. Bagi penipuan dalam talian, hubungi NSRC di talian 997 dengan segera.",
+
+    // FAQ
+    "sp.faq.eyebrow": "Soalan Lazim",
+    "sp.faq.title": "Soalan Lazim (FAQ)",
+    "sp.faq.1.q": "Bagaimana syarikat saya boleh menaja produksi ini?",
+    "sp.faq.1.a":
+      "Hubungi kami di hello@kino.my atau +6017-663 5990. Kami akan hantar Cadangan Penajaan rasmi berserta pakej penuh (Platinum, Gold, Silver dan rakan strategik) dengan manfaat setiap peringkat. Semua penajaan dimeterai melalui perjanjian bertulis.",
+    "sp.faq.2.q": "Apakah pakej penajaan yang ditawarkan?",
+    "sp.faq.2.a":
+      "Pakej merangkumi hak penjenamaan (logo pada bahan publisiti, program book, LED pentas), tiket VIP dan malam korporat, liputan media, serta penyertaan dalam Program Bangsawan Legasi. Butiran penuh dalam Cadangan Penajaan rasmi.",
+    "sp.faq.3.q": "Bolehkah penajaan ini dilaporkan sebagai CSR syarikat kami?",
+    "sp.faq.3.a":
+      "Ya. Program Bangsawan Legasi direka sebagai program pembangunan modal insan dan pemuliharaan warisan lima elemen — sesuai untuk pelaporan CSR/kelestarian organisasi tuan-tuan. Kami akan sediakan laporan pemenuhan (fulfilment report) selepas produksi untuk rekod tuan-tuan.",
+    "sp.faq.4.q": "Adakah penajaan ini layak mendapat potongan cukai?",
+    "sp.faq.4.a":
+      "Penajaan aktiviti seni dan kebudayaan yang diluluskan boleh layak untuk potongan cukai di bawah peruntukan Akta Cukai Pendapatan, tertakluk kepada kelulusan kementerian berkaitan dan pengesahan LHDN. Kami boleh berbincang mengenai proses permohonan ini bersama pihak tuan-tuan — sila sahkan kelayakan dengan penasihat cukai syarikat tuan-tuan.",
+    "sp.faq.5.q": "Kepada siapa bayaran penajaan dibuat?",
+    "sp.faq.5.a":
+      "Semua bayaran HANYA dibuat ke akaun bank Kino Studios Sdn. Bhd. seperti yang dinyatakan dalam invois rasmi bernombor. Kami tidak menerima tunai, dan tiada individu dibenarkan menerima bayaran bagi pihak produksi.",
+    "sp.faq.6.q": "Saya dihubungi oleh seseorang yang mendakwa mewakili produksi ini. Bagaimana nak pastikan dia sah?",
+    "sp.faq.6.a":
+      "Minta salinan Surat Perlantikan beliau dan hantarkan ke hello@kino.my untuk pengesahan — kami akan sahkan secara bertulis dalam 1 hari bekerja. Ingat: walaupun wakil itu sah, beliau tetap tidak dibenarkan menerima sebarang bayaran. Bayaran hanya melalui akaun syarikat.",
+    "sp.faq.7.q": "Adakah produksi ini menerima derma orang perseorangan?",
+    "sp.faq.7.a":
+      "Buat masa ini, sebarang kempen sumbangan awam (jika ada) akan diumumkan secara rasmi di www.kino.my dan media sosial rasmi sahaja. Selagi tiada pengumuman rasmi, tiada kutipan derma awam dijalankan — sebarang kutipan atas nama produksi ini adalah tidak sah.",
+    "sp.faq.8.q": "Adakah tiket sudah mula dijual? Ada orang tawarkan \"tiket awal\" kepada saya.",
+    "sp.faq.8.a":
+      "Jualan tiket rasmi hanya melalui saluran yang akan diumumkan di www.kino.my dan saluran rasmi Istana Budaya. Sebarang tawaran \"tiket awal\", \"tiket VIP terhad\" atau \"harga khas\" daripada individu di luar saluran ini adalah berkemungkinan besar penipuan — sila laporkan kepada kami.",
+    "sp.faq.9.q": "Bilakah pertunjukan ini akan berlangsung?",
+    "sp.faq.9.a":
+      "Produksi dijadualkan di Istana Budaya, Kuala Lumpur pada 2026, sempena ulang tahun ke-500 Kesultanan Perak. Tarikh rasmi akan diumumkan melalui saluran rasmi.",
+    "sp.faq.10.q": "Apakah yang saya perlu buat jika sudah terlanjur membuat bayaran kepada pihak yang tidak sah?",
+    "sp.faq.10.a":
+      "Hubungi bank tuan-tuan dan NSRC di talian 997 dengan segera (semakin cepat, semakin tinggi peluang akaun dibekukan), buat laporan polis, dan maklumkan kepada kami di hello@kino.my dengan bukti (resit, tangkapan skrin, butiran akaun) supaya kami boleh mengeluarkan amaran awam dan membantu siasatan.",
+    "sp.faq.11.q": "Bolehkah organisasi kami menaja secara \"in-kind\" (barangan/perkhidmatan) dan bukan wang tunai?",
+    "sp.faq.11.a":
+      "Boleh. Penajaan in-kind (contoh: penginapan, pengangkutan, F&B, media value) dialu-alukan dan turut dimeterai melalui perjanjian bertulis dengan nilai yang dipersetujui, serta menerima manfaat penjenamaan setara.",
+    "sp.faq.12.q": "Siapa yang menandatangani perjanjian bagi pihak produksi?",
+    "sp.faq.12.a":
+      "Hanya penandatangan sah Kino Studios Sdn. Bhd. Perjanjian yang tidak ditandatangani oleh penandatangan sah syarikat tidak mengikat produksi ini.",
+
+    // CTA Penutup
+    "sp.cta.eyebrow": "Peluang Tuan-tuan",
+    "sp.cta.title": "Warisan 500 Tahun. Satu Pentas. Peluang Tuan-tuan.",
+    "sp.cta.body":
+      "Ruang penajaan adalah terhad dan diberikan atas dasar siapa cepat, mengikut peringkat pakej. Hubungi kami hari ini untuk sesi pembentangan rasmi.",
+    "sp.cta.org": "Beting Beras Basah: Hikayat Mahkota Dewa — anjuran Kino Studios Sdn. Bhd. (002138666-M) / KinoCinema Media.",
+
+    // Link from main page
+    "footer.sponsorship": "Penajaan & Saluran Rasmi",
+    "footer.sponsorship.sub": "Proses, saluran rasmi, amaran penipuan & FAQ",
+
     // ─── HARDCODED UI STRINGS (dipindah ke i18n) ───
     "prog.journey.prev": "← Langkah Sebelum",
     "prog.journey.next": "Langkah Seterusnya →",
@@ -1230,6 +1336,105 @@ const translations: Record<Language, TranslationDict> = {
     "prog.closing.final_q_sub": "That is the only choice available.",
     "legasi.cta.full": "View Full Briefing →",
     "legasi.cta.full.sub": "Dedicated page for CSR & management teams",
+
+    // ═══════════════════════════════════════════════════════
+    // PENAJAAN RASMI PAGE (/penajaan-rasmi) — EN
+    // ═══════════════════════════════════════════════════════
+    "sp.nav.back": "← Back to Home",
+    "sp.nav.cta": "Contact Us →",
+
+    "sp.hero.eyebrow": "Sponsorship & Official Channels",
+    "sp.hero.title": "Become Part of History",
+    "sp.hero.body":
+      "Beting Beras Basah: Hikayat Mahkota Dewa — the coronation tale of the Perak Sultanate on the Istana Budaya stage for the first time, in conjunction with 500 years of the Perak Sultanate, with the first holographic technology in bangsawan history at IB.",
+    "sp.hero.body2":
+      "We invite corporations, GLCs and foundations to sponsor this legacy production through the Bangsawan Legacy Program — a human capital development and heritage preservation initiative eligible to be reported as your organization's CSR program.",
+    "sp.hero.cta1": "Download Sponsorship Proposal",
+    "sp.hero.cta2": "Contact Us",
+
+    "sp.process.eyebrow": "How to Become a Sponsor",
+    "sp.process.title": "Official Sponsorship Process — 5 Steps",
+    "sp.process.note":
+      "Every ringgit is recorded. Every sponsor receives a numbered invoice, official receipt, and fulfillment report.",
+    "sp.step.1.title": "Contact Us",
+    "sp.step.1.desc": "Via email hello@kino.my or +6017-663 5990.",
+    "sp.step.2.title": "Receive Official Sponsorship Proposal",
+    "sp.step.2.desc": "With packages and benefits (Platinum / Gold / Silver / strategic partner).",
+    "sp.step.3.title": "Negotiation & Agreement",
+    "sp.step.3.desc": "Sealed through a written Sponsorship Agreement signed by both parties.",
+    "sp.step.4.title": "Official Invoice",
+    "sp.step.4.desc": "Issued by Kino Studios Sdn. Bhd. — payment directly to company account only.",
+    "sp.step.5.title": "Official Receipt & Benefit Implementation",
+    "sp.step.5.desc": "Branding, VIP tickets, publicity and fulfillment report after production.",
+
+    "sp.channel.eyebrow": "Official Production Channels",
+    "sp.channel.title": "Official Production Channels",
+    "sp.channel.org": "Organizer",
+    "sp.channel.org.value": "Kino Studios Sdn. Bhd. (002138666-M) — KinoCinema Media",
+    "sp.channel.email": "Official Email",
+    "sp.channel.email.value": "hello@kino.my",
+    "sp.channel.phone": "Phone / WhatsApp",
+    "sp.channel.phone.value": "+6017-663 5990",
+    "sp.channel.web": "Website",
+    "sp.channel.web.value": "www.kino.my",
+    "sp.channel.warning":
+      "Payments are only valid through Kino Studios Sdn. Bhd. bank account, with official invoice. We do not accept cash and have never requested payment to personal accounts, personal e-wallets, or through individuals.",
+
+    "sp.warn.eyebrow": "Important Notice",
+    "sp.warn.title": "Fraud Warning",
+    "sp.warn.body":
+      "Any individual or party collecting donations, selling sponsorship packages, or selling \"early tickets\" in the name of this production without an official Appointment Letter from Kino Studios Sdn. Bhd. is INVALID.",
+    "sp.warn.1": "Our official representatives carry an Appointment Letter on company letterhead — and no representative is permitted to accept payment.",
+    "sp.warn.2": "In doubt? Verify first at hello@kino.my before making any payment. We will confirm within 1 business day.",
+    "sp.warn.3": "Encountering unauthorized collection? Report to us and the police. For online fraud, contact NSRC at 997 immediately.",
+
+    "sp.faq.eyebrow": "Frequently Asked Questions",
+    "sp.faq.title": "FAQ",
+    "sp.faq.1.q": "How can my company sponsor this production?",
+    "sp.faq.1.a":
+      "Contact us at hello@kino.my or +6017-663 5990. We will send the official Sponsorship Proposal with full packages (Platinum, Gold, Silver and strategic partner) with benefits at each level. All sponsorships are sealed through written agreement.",
+    "sp.faq.2.q": "What sponsorship packages are offered?",
+    "sp.faq.2.a":
+      "Packages include branding rights (logo on publicity materials, program book, stage LED), VIP tickets and corporate night, media coverage, and participation in the Bangsawan Legacy Program. Full details in the official Sponsorship Proposal.",
+    "sp.faq.3.q": "Can this sponsorship be reported as our company's CSR?",
+    "sp.faq.3.a":
+      "Yes. The Bangsawan Legacy Program is designed as a human capital development and heritage preservation program with five elements — suitable for your organization's CSR/sustainability reporting. We will provide a fulfillment report after production for your records.",
+    "sp.faq.4.q": "Is this sponsorship eligible for tax deduction?",
+    "sp.faq.4.a":
+      "Approved arts and cultural sponsorship may be eligible for tax deduction under the Income Tax Act, subject to ministry approval and LHDN verification. We can discuss this application process with you — please verify eligibility with your company's tax advisor.",
+    "sp.faq.5.q": "To whom should sponsorship payments be made?",
+    "sp.faq.5.a":
+      "All payments are ONLY made to the Kino Studios Sdn. Bhd. bank account as stated in the official numbered invoice. We do not accept cash, and no individual is permitted to accept payment on behalf of the production.",
+    "sp.faq.6.q": "I was contacted by someone claiming to represent this production. How do I verify they're legitimate?",
+    "sp.faq.6.a":
+      "Request a copy of their Appointment Letter and send it to hello@kino.my for verification — we will confirm in writing within 1 business day. Remember: even if the representative is legitimate, they are still not permitted to accept any payment. Payment only through company account.",
+    "sp.faq.7.q": "Does this production accept individual donations?",
+    "sp.faq.7.a":
+      "At this time, any public donation campaign (if any) will be officially announced at www.kino.my and official social media only. Until there is an official announcement, no public donation collection is conducted — any collection in the name of this production is invalid.",
+    "sp.faq.8.q": "Are tickets on sale yet? Someone offered me \"early tickets\".",
+    "sp.faq.8.a":
+      "Official ticket sales are only through channels that will be announced at www.kino.my and official Istana Budaya channels. Any offer of \"early tickets\", \"limited VIP tickets\" or \"special pricing\" from individuals outside these channels is most likely fraud — please report to us.",
+    "sp.faq.9.q": "When will this performance take place?",
+    "sp.faq.9.a":
+      "The production is scheduled at Istana Budaya, Kuala Lumpur in 2026, in conjunction with the 500th anniversary of the Perak Sultanate. Official dates will be announced through official channels.",
+    "sp.faq.10.q": "What should I do if I've already made payment to an unauthorized party?",
+    "sp.faq.10.a":
+      "Contact your bank and NSRC at 997 immediately (the faster, the higher the chance of account freezing), file a police report, and notify us at hello@kino.my with evidence (receipts, screenshots, account details) so we can issue a public warning and assist investigations.",
+    "sp.faq.11.q": "Can our organization sponsor \"in-kind\" (goods/services) instead of cash?",
+    "sp.faq.11.a":
+      "Yes. In-kind sponsorship (e.g.: accommodation, transport, F&B, media value) is welcome and also sealed through written agreement with agreed value, receiving equivalent branding benefits.",
+    "sp.faq.12.q": "Who signs the agreement on behalf of the production?",
+    "sp.faq.12.a":
+      "Only the authorized signatory of Kino Studios Sdn. Bhd. Agreements not signed by the company's authorized signatory do not bind this production.",
+
+    "sp.cta.eyebrow": "Your Opportunity",
+    "sp.cta.title": "500 Years of Heritage. One Stage. Your Opportunity.",
+    "sp.cta.body":
+      "Sponsorship space is limited and given on a first-come basis, by package tier. Contact us today for an official presentation session.",
+    "sp.cta.org": "Beting Beras Basah: Hikayat Mahkota Dewa — organized by Kino Studios Sdn. Bhd. (002138666-M) / KinoCinema Media.",
+
+    "footer.sponsorship": "Sponsorship & Official Channels",
+    "footer.sponsorship.sub": "Process, official channels, fraud warning & FAQ",
 
     // ─── UI STRINGS (matching new BM keys) ───
     "prog.journey.prev": "← Previous Step",
