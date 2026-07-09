@@ -627,3 +627,63 @@ Verification (live):
 - BM + EN both work
 - Pushed to GitHub (commit 18680b2)
 - Deployed to Vercel
+
+---
+Task ID: polisi-rasmi-penajaan
+Agent: main
+Task: Add Polisi Rasmi Penajaan section to /penajaan-rasmi page
+
+Source: user-uploaded Polisi_Rasmi_Penajaan_BBB.pdf (8 pages, 173KB)
+Content: Official sponsorship, funding & collection policy v1.0 (July 2026)
+
+PDF hosted at: /documents/Polisi-Rasmi-Penajaan-BBB.pdf (verified 200 OK)
+
+New section added to /penajaan-rasmi page (between Saluran Rasmi & Amaran):
+"Polisi Rasmi Penajaan, Tajaan & Kutipan Dana"
+
+10 sections (accordion - click to expand/collapse):
+1. Tujuan Dokumen
+2. Entiti Penganjur Rasmi (table: 7 fields - Kino Studios info)
+3. Saluran Komunikasi Rasmi (table: 4 channels with usage)
+4. Wakil Yang Diberi Kuasa (3 items about Appointment Letters)
+5. Kaedah Bayaran Yang Sah (3 items - company account only)
+6. Proses Penajaan Rasmi (7 numbered steps)
+7. Larangan & Amaran Penipuan (3 items, red warning style)
+8. Cara Mengesahkan Wakil (4 items)
+9. Pelaporan Penipuan (3 items - NSRC 997)
+10. Penafian & Hak (3 items)
+
+Features:
+- Download button: 'Muat Turun Polisi Penuh (PDF) →'
+- Version label: 'Versi 1.0 · Julai 2026'
+- Disclaimer text
+- Signatory block at bottom (gold border-top):
+  - 'Disahkan oleh'
+  - 'Mahadzir Hanafiah'
+  - 'Pengasas & Penerbit Prinsipal, Kino Studios Sdn. Bhd. (KinoCinema Media)'
+
+UI details:
+- Section 2: entity info table (7 fields in grid)
+- Section 3: channels table (4 channels with value + usage)
+- Section 6: numbered 7-step process (1-7)
+- Section 7: red warning style (⚠ icons, #fca5a5 text)
+- Mobile responsive (channels grid collapses to 1 column)
+
+Files:
+- public/documents/Polisi-Rasmi-Penajaan-BBB.pdf (new, 173KB)
+- src/components/bbb/sponsorship/PolisiSection.tsx (new, 10-section accordion)
+- src/app/penajaan-rasmi/page.tsx (added PolisiSection between Channels & Warning)
+- src/lib/i18n.tsx (~80 new keys BM + EN)
+
+Verification (live):
+- PDF: 200 OK
+- Page: 200 OK
+- All 10 accordion sections work (verified click expand/collapse)
+- Section 2 entity table shows Kino Studios info
+- Section 6 shows 7 numbered steps
+- Signatory block shows Mahadzir Hanafiah
+- Download button links to PDF
+- 0 lint errors, 0 browser errors
+- BM + EN both work
+- Pushed to GitHub (commit d9385ad)
+- Deployed: https://beting-beras-basah-ii.vercel.app/penajaan-rasmi#polisi
