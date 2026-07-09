@@ -555,3 +555,75 @@ Verification (live):
 - 0 lint errors, 0 browser errors
 - Pushed to GitHub (commit 0c284d2)
 - Deployed: https://beting-beras-basah-ii.vercel.app
+
+---
+Task ID: penajaan-rasmi-page
+Agent: main
+Task: Add /penajaan-rasmi page with full sponsorship content from MD file
+
+User request: "Sy nk tambah di bahagian bawah di website dan subdomain
+di site yang lebih detail mengenai Hal dalam file ni"
+File: Kandungan_Laman_Web_Penajaan_FAQ.md
+
+New route: /penajaan-rasmi (Penajaan & Saluran Rasmi)
+Live URL: https://beting-beras-basah-ii.vercel.app/penajaan-rasmi
+
+6 sections built (all content from MD file):
+1. HERO - 'Jadilah Sebahagian Daripada Sejarah'
+   - Body text about Hikayat Mahkota Dewa + Bangsawan Legacy Program
+   - 2 CTA buttons: Download Proposal (PDF) + Contact Us (mailto)
+2. PROSES PENAJAAN - 5 Langkah (grid layout)
+   - 01: Hubungi Kami (hello@kino.my / +6017-663 5990)
+   - 02: Terima Cadangan Penajaan Rasmi (Platinum/Gold/Silver/strategic)
+   - 03: Rundingan & Persetujuan (written agreement)
+   - 04: Invois Rasmi (Kino Studios Sdn. Bhd. company account only)
+   - 05: Resit Rasmi & Pelaksanaan Manfaat
+   - Note: 'Setiap ringgit direkodkan...'
+3. SALURAN RASMI - info box with 4 channels
+   - Penganjur: Kino Studios Sdn. Bhd. (002138666-M) — KinoCinema Media
+   - E-mel rasmi: hello@kino.my
+   - Telefon/WhatsApp: +6017-663 5990
+   - Laman web: www.kino.my
+   - Warning: bayaran hanya akaun syarikat, no tunai/personal
+4. AMARAN PENIPUAN - red alert box (border tegas)
+   - Title: 'Awas Penipuan'
+   - Body: 'TIDAK SAH' warning
+   - 3 items: Surat Perlantikan, Sahkan dahulu, NSRC 997
+5. FAQ - 12 soalan (accordion)
+   - Cara menaja, pakej, CSR, cukai, bayaran, wakil, derma,
+     tiket, tarikh, terlanjur, in-kind, penandatangan
+6. CTA PENUTUP - 'Warisan 500 Tahun. Satu Pentas. Peluang Tuan-tuan.'
+   - Email button (hello@kino.my)
+   - WhatsApp button (+6017-663 5990)
+
+Components: src/components/bbb/sponsorship/SponsorshipPage.tsx (7 exports)
+- SponsorshipNav (logo + lang toggle + email CTA)
+- SponsorshipHero
+- SponsorshipProcess (5-step grid)
+- SponsorshipChannels (info box)
+- SponsorshipWarning (red alert box)
+- SponsorshipFAQ (12-item accordion)
+- SponsorshipClosingCTA
+
+Footer update (all pages):
+- Added link 'Penajaan & Saluran Rasmi →' below partner line
+- Link navigates to /penajaan-rasmi (verified)
+- Subtitle: 'Proses, saluran rasmi, amaran penipuan & FAQ'
+
+~90 new i18n keys (BM + EN)
+Files:
+- src/app/penajaan-rasmi/page.tsx (new route)
+- src/components/bbb/sponsorship/SponsorshipPage.tsx (new)
+- src/components/bbb/Footer.tsx (added sponsorship link)
+- src/lib/i18n.tsx (BM + EN translations)
+
+Verification (live):
+- Page returns 200 OK
+- Title: 'Penajaan & Saluran Rasmi | Teater Bangsawan Beting Basah'
+- All 6 sections render correctly
+- 12 FAQ accordion items work
+- Footer link navigates to /penajaan-rasmi (verified)
+- 0 lint errors, 0 browser errors
+- BM + EN both work
+- Pushed to GitHub (commit 18680b2)
+- Deployed to Vercel
