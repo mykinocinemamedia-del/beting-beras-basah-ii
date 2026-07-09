@@ -8,6 +8,7 @@ import {
   SponsorshipFAQ,
   SponsorshipClosingCTA,
 } from "@/components/bbb/sponsorship/SponsorshipPage";
+import { PolisiSection } from "@/components/bbb/sponsorship/PolisiSection";
 import { Footer } from "@/components/bbb/Footer";
 import { WhatsAppFloat } from "@/components/bbb/WhatsAppFloat";
 
@@ -43,6 +44,7 @@ export default function PenajaanRasmiPage() {
         <SponsorshipHero />
         <SponsorshipProcess />
         <SponsorshipChannels />
+        <PolisiSection />
         <SponsorshipWarning />
         <SponsorshipFAQ />
         <SponsorshipClosingCTA />

@@ -719,6 +719,96 @@ const translations: Record<Language, TranslationDict> = {
       "Ruang penajaan adalah terhad dan diberikan atas dasar siapa cepat, mengikut peringkat pakej. Hubungi kami hari ini untuk sesi pembentangan rasmi.",
     "sp.cta.org": "Beting Beras Basah: Hikayat Mahkota Dewa — anjuran Kino Studios Sdn. Bhd. (002138666-M) / KinoCinema Media.",
 
+    // POLISI RASMI PENAJAAN SECTION — BM
+    "sp.polisi.eyebrow": "Polisi Rasmi",
+    "sp.polisi.title": "Polisi Rasmi Penajaan, Tajaan & Kutipan Dana",
+    "sp.polisi.subtitle":
+      "Dokumen rasmi versi 1.0 (Julai 2026) yang mengawal selia semua urusan penajaan, tajaan, sumbangan dan kutipan dana bagi Produksi ini. Disahkan oleh Pengarah Kino Studios Sdn. Bhd.",
+    "sp.polisi.download": "Muat Turun Polisi Penuh (PDF) →",
+    "sp.polisi.disclaimer":
+      "Dokumen ini disediakan untuk edaran kepada penaja, rakan korporat, media dan orang awam.",
+
+    "sp.polisi.s1.title": "1. Tujuan Dokumen",
+    "sp.polisi.s1.body":
+      "Menetapkan polisi rasmi berhubung penajaan, tajaan, sumbangan dan kutipan dana. Melindungi penaja, rakan korporat dan orang awam daripada penipuan. Menetapkan siapa yang diberi kuasa, kaedah bayaran yang sah, dan prosedur pengesahan serta pelaporan.",
+
+    "sp.polisi.s2.title": "2. Entiti Penganjur Rasmi",
+    "sp.polisi.s2.body":
+      "Satu-satunya entiti yang sah untuk menerima penajaan, tajaan dan bayaran ialah Kino Studios Sdn. Bhd. (002138666-M) / KinoCinema Media. Sebarang entiti, syarikat, persatuan atau individu lain TIDAK diberi kuasa melainkan dinyatakan secara bertulis melalui Surat Perlantikan rasmi.",
+    "sp.polisi.s2.label.name": "Nama Syarikat",
+    "sp.polisi.s2.label.ssm": "No. Pendaftaran (SSM)",
+    "sp.polisi.s2.label.brand": "Jenama Perniagaan",
+    "sp.polisi.s2.label.address": "Alamat",
+    "sp.polisi.s2.label.email": "E-mel Rasmi",
+    "sp.polisi.s2.label.phone": "Telefon Rasmi",
+    "sp.polisi.s2.label.web": "Laman Web Rasmi",
+    "sp.polisi.s2.val.name": "Kino Studios Sdn. Bhd.",
+    "sp.polisi.s2.val.ssm": "002138666-M",
+    "sp.polisi.s2.val.brand": "KinoCinema Media",
+    "sp.polisi.s2.val.address": "Ampang Jaya, Selangor Darul Ehsan, Malaysia",
+    "sp.polisi.s2.val.email": "hello@kino.my",
+    "sp.polisi.s2.val.phone": "+6017-663 5990",
+    "sp.polisi.s2.val.web": "www.kino.my",
+
+    "sp.polisi.s3.title": "3. Saluran Komunikasi Rasmi",
+    "sp.polisi.s3.body":
+      "Semua urusan penajaan dan kewangan hanya sah melalui saluran rasmi. Komunikasi daripada e-mel peribadi (Gmail, Yahoo), nombor telefon yang tidak disenaraikan, atau akaun media sosial tidak rasmi TIDAK mewakili Produksi.",
+    "sp.polisi.s3.email.use": "Semua urusan rasmi penajaan, sebut harga, invois dan perjanjian",
+    "sp.polisi.s3.phone.use": "Pertanyaan awal dan pengesahan wakil",
+    "sp.polisi.s3.web.use": "Maklumat rasmi, notis dan pengumuman",
+    "sp.polisi.s3.social.use": "Pengumuman awam sahaja — bukan saluran bayaran",
+
+    "sp.polisi.s4.title": "4. Wakil Yang Diberi Kuasa",
+    "sp.polisi.s4.body":
+      "Hanya individu yang memegang Surat Perlantikan rasmi di atas kepala surat Kino Studios Sdn. Bhd., ditandatangani oleh Pengarah syarikat dan dicop dengan cop rasmi, adalah wakil yang sah.",
+    "sp.polisi.s4.1": "Setiap Surat Perlantikan menyatakan: nama penuh wakil, nombor kad pengenalan, jawatan, skop kuasa, dan tempoh sah perlantikan.",
+    "sp.polisi.s4.2": "Kuasa berunding adalah BERASINGAN daripada kuasa menerima bayaran. Secara lalai, TIADA wakil individu diberi kuasa menerima bayaran.",
+    "sp.polisi.s4.3": "Perjanjian penajaan hanya mengikat apabila ditandatangani oleh penandatangan sah Kino Studios Sdn. Bhd.",
+
+    "sp.polisi.s5.title": "5. Kaedah Bayaran Yang Sah",
+    "sp.polisi.s5.body":
+      "Semua bayaran HANYA sah apabila dibuat ke akaun bank rasmi syarikat. Setiap bayaran MESTI didahului oleh invois rasmi bernombor.",
+    "sp.polisi.s5.1": "Resit rasmi dikeluarkan dalam tempoh 7 hari bekerja.",
+    "sp.polisi.s5.2": "Kami TIDAK menerima bayaran tunai, akaun bank peribadi, e-wallet peribadi, atau kaedah lain.",
+    "sp.polisi.s5.3": "Sebarang permintaan bayaran yang bercanggah adalah TIDAK sah dan hendaklah dilaporkan segera.",
+
+    "sp.polisi.s6.title": "6. Proses Penajaan Rasmi (7 Langkah)",
+    "sp.polisi.s6.1": "Pertanyaan awal melalui saluran rasmi",
+    "sp.polisi.s6.2": "Penghantaran Cadangan Penajaan rasmi berserta pakej",
+    "sp.polisi.s6.3": "Perbincangan dan rundingan oleh wakil yang diberi kuasa",
+    "sp.polisi.s6.4": "Termeterai Perjanjian Penajaan / MOU yang ditandatangani kedua-dua pihak",
+    "sp.polisi.s6.5": "Invois rasmi bernombor dikeluarkan kepada penaja",
+    "sp.polisi.s6.6": "Bayaran dibuat terus ke akaun syarikat dan resit rasmi dikeluarkan",
+    "sp.polisi.s6.7": "Pelaksanaan manfaat penajaan dengan laporan pemenuhan selepas produksi",
+
+    "sp.polisi.s7.title": "7. Larangan & Amaran Penipuan",
+    "sp.polisi.s7.body":
+      "Mana-mana pihak yang mengutip wang, menjual pakej penajaan, menjual tiket \"pra-rasmi\", atau meminta sumbangan atas nama produksi ini tanpa Surat Perlantikan yang sah adalah melakukan penipuan. Kino Studios Sdn. Bhd. tidak akan bertanggungjawab ke atas sebarang bayaran yang dibuat kepada individu atau akaun yang tidak dinyatakan dalam dokumen ini.",
+    "sp.polisi.s7.1": "Tiada kutipan derma dari rumah ke rumah, di premis awam, atau secara dalam talian dibenarkan melainkan diumumkan secara rasmi di www.kino.my.",
+    "sp.polisi.s7.2": "Tiada individu dibenarkan menerima wang tunai bagi pihak Produksi dalam apa jua keadaan.",
+    "sp.polisi.s7.3": "Tiada pihak dibenarkan mengeluarkan invois, resit, atau perjanjian menggunakan nama atau logo Produksi/KinoCinema tanpa kebenaran bertulis.",
+
+    "sp.polisi.s8.title": "8. Cara Mengesahkan Wakil atau Dokumen",
+    "sp.polisi.s8.1": "Minta salinan Surat Perlantikan dan kad pengenalan wakil.",
+    "sp.polisi.s8.2": "Hantarkan ke hello@kino.my atau hubungi +6017-663 5990 untuk pengesahan (1 hari bekerja).",
+    "sp.polisi.s8.3": "Semak bahawa invois dikeluarkan atas nama Kino Studios Sdn. Bhd. (002138666-M).",
+    "sp.polisi.s8.4": "Pastikan perjanjian ditandatangani oleh penandatangan sah syarikat sebelum sebarang bayaran.",
+
+    "sp.polisi.s9.title": "9. Pelaporan Penipuan atau Salah Guna",
+    "sp.polisi.s9.1": "Laporkan segera kepada hello@kino.my atau +6017-663 5990 dengan bukti.",
+    "sp.polisi.s9.2": "Buat laporan polis di balai polis berhampiran, terutama jika bayaran telah dibuat.",
+    "sp.polisi.s9.3": "Bagi penipuan dalam talian, hubungi NSRC di talian 997 dengan segera.",
+
+    "sp.polisi.s10.title": "10. Penafian & Hak",
+    "sp.polisi.s10.1": "Kino Studios Sdn. Bhd. berhak meminda polisi ini dari semasa ke semasa. Versi terkini disiarkan di www.kino.my.",
+    "sp.polisi.s10.2": "Dokumen ini bukan nasihat undang-undang. Perjanjian penajaan tertakluk kepada terma khusus yang dipersetujui secara bertulis.",
+    "sp.polisi.s10.3": "Nama, logo dan bahan kreatif Produksi adalah harta intelek yang dilindungi.",
+
+    "sp.polisi.signed": "Disahkan oleh",
+    "sp.polisi.signatory": "Mahadzir Hanafiah",
+    "sp.polisi.signatory.role": "Pengasas & Penerbit Prinsipal, Kino Studios Sdn. Bhd. (KinoCinema Media)",
+    "sp.polisi.version": "Versi 1.0 · Julai 2026",
+
     // Link from main page
     "footer.sponsorship": "Penajaan & Saluran Rasmi",
     "footer.sponsorship.sub": "Proses, saluran rasmi, amaran penipuan & FAQ",
@@ -1432,6 +1522,96 @@ const translations: Record<Language, TranslationDict> = {
     "sp.cta.body":
       "Sponsorship space is limited and given on a first-come basis, by package tier. Contact us today for an official presentation session.",
     "sp.cta.org": "Beting Beras Basah: Hikayat Mahkota Dewa — organized by Kino Studios Sdn. Bhd. (002138666-M) / KinoCinema Media.",
+
+    // POLISI RASMI PENAJAAN SECTION — EN
+    "sp.polisi.eyebrow": "Official Policy",
+    "sp.polisi.title": "Official Sponsorship, Funding & Collection Policy",
+    "sp.polisi.subtitle":
+      "Official document version 1.0 (July 2026) governing all sponsorship, funding, donation and collection matters for this Production. Authorized by Director of Kino Studios Sdn. Bhd.",
+    "sp.polisi.download": "Download Full Policy (PDF) →",
+    "sp.polisi.disclaimer":
+      "This document is prepared for distribution to sponsors, corporate partners, media and the public.",
+
+    "sp.polisi.s1.title": "1. Purpose of Document",
+    "sp.polisi.s1.body":
+      "Sets the official policy regarding sponsorship, funding, donations and any form of collection. Protects sponsors, corporate partners and the public from fraud. Establishes who is authorized, valid payment methods, and verification and reporting procedures.",
+
+    "sp.polisi.s2.title": "2. Official Organizing Entity",
+    "sp.polisi.s2.body":
+      "The only entity authorized to receive sponsorship, funding and payment is Kino Studios Sdn. Bhd. (002138666-M) / KinoCinema Media. Any other entity, company, association or individual is NOT authorized unless stated in writing through an official Appointment Letter.",
+    "sp.polisi.s2.label.name": "Company Name",
+    "sp.polisi.s2.label.ssm": "Registration No. (SSM)",
+    "sp.polisi.s2.label.brand": "Business Brand",
+    "sp.polisi.s2.label.address": "Address",
+    "sp.polisi.s2.label.email": "Official Email",
+    "sp.polisi.s2.label.phone": "Official Phone",
+    "sp.polisi.s2.label.web": "Official Website",
+    "sp.polisi.s2.val.name": "Kino Studios Sdn. Bhd.",
+    "sp.polisi.s2.val.ssm": "002138666-M",
+    "sp.polisi.s2.val.brand": "KinoCinema Media",
+    "sp.polisi.s2.val.address": "Ampang Jaya, Selangor Darul Ehsan, Malaysia",
+    "sp.polisi.s2.val.email": "hello@kino.my",
+    "sp.polisi.s2.val.phone": "+6017-663 5990",
+    "sp.polisi.s2.val.web": "www.kino.my",
+
+    "sp.polisi.s3.title": "3. Official Communication Channels",
+    "sp.polisi.s3.body":
+      "All sponsorship and financial matters are only valid through official channels. Communication from personal email (Gmail, Yahoo), unlisted phone numbers, or unofficial social media accounts does NOT represent the Production.",
+    "sp.polisi.s3.email.use": "All official sponsorship matters, quotations, invoices and agreements",
+    "sp.polisi.s3.phone.use": "Initial inquiries and representative verification",
+    "sp.polisi.s3.web.use": "Official information, notices and announcements",
+    "sp.polisi.s3.social.use": "Public announcements only — not a payment channel",
+
+    "sp.polisi.s4.title": "4. Authorized Representatives",
+    "sp.polisi.s4.body":
+      "Only individuals holding an official Appointment Letter on Kino Studios Sdn. Bhd. letterhead, signed by the company Director and stamped with the official company seal, are authorized representatives.",
+    "sp.polisi.s4.1": "Each Appointment Letter states: full name, IC number, position, scope of authority, and validity period.",
+    "sp.polisi.s4.2": "Negotiation authority is SEPARATE from payment authority. By default, NO individual representative is authorized to receive payment.",
+    "sp.polisi.s4.3": "Sponsorship agreements are only binding when signed by an authorized signatory of Kino Studios Sdn. Bhd.",
+
+    "sp.polisi.s5.title": "5. Valid Payment Methods",
+    "sp.polisi.s5.body":
+      "All payments are ONLY valid when made to the official company bank account. Each payment MUST be preceded by an official numbered invoice.",
+    "sp.polisi.s5.1": "Official receipt issued within 7 business days.",
+    "sp.polisi.s5.2": "We do NOT accept cash, personal bank accounts, personal e-wallets, or other methods.",
+    "sp.polisi.s5.3": "Any conflicting payment request is INVALID and should be reported immediately.",
+
+    "sp.polisi.s6.title": "6. Official Sponsorship Process (7 Steps)",
+    "sp.polisi.s6.1": "Initial inquiry through official channels",
+    "sp.polisi.s6.2": "Submission of official Sponsorship Proposal with packages",
+    "sp.polisi.s6.3": "Discussion and negotiation by authorized representative",
+    "sp.polisi.s6.4": "Sponsorship Agreement / MOU signed by both parties",
+    "sp.polisi.s6.5": "Official numbered invoice issued to sponsor",
+    "sp.polisi.s6.6": "Payment made directly to company account and official receipt issued",
+    "sp.polisi.s6.7": "Implementation of sponsorship benefits with fulfillment report after production",
+
+    "sp.polisi.s7.title": "7. Prohibitions & Fraud Warning",
+    "sp.polisi.s7.body":
+      "Any party collecting money, selling sponsorship packages, selling \"pre-official\" tickets, or requesting donations in the name of this production without a valid Appointment Letter is committing fraud. Kino Studios Sdn. Bhd. will not be responsible for any payments made to individuals or accounts not stated in this document.",
+    "sp.polisi.s7.1": "No door-to-door, public premise, or online crowdfunding is permitted unless officially announced at www.kino.my.",
+    "sp.polisi.s7.2": "No individual is permitted to accept cash on behalf of the Production under any circumstances.",
+    "sp.polisi.s7.3": "No party is permitted to issue invoices, receipts, or agreements using the Production/KinoCinema name or logo without written permission.",
+
+    "sp.polisi.s8.title": "8. How to Verify Representatives or Documents",
+    "sp.polisi.s8.1": "Request a copy of the Appointment Letter and representative's IC.",
+    "sp.polisi.s8.2": "Send to hello@kino.my or call +6017-663 5990 for verification (1 business day).",
+    "sp.polisi.s8.3": "Check that invoice is issued under Kino Studios Sdn. Bhd. (002138666-M).",
+    "sp.polisi.s8.4": "Ensure agreement is signed by company's authorized signatory before any payment.",
+
+    "sp.polisi.s9.title": "9. Reporting Fraud or Misuse",
+    "sp.polisi.s9.1": "Report immediately to hello@kino.my or +6017-663 5990 with evidence.",
+    "sp.polisi.s9.2": "File a police report at the nearest police station, especially if payment has been made.",
+    "sp.polisi.s9.3": "For online fraud, contact NSRC at 997 immediately for account freezing action.",
+
+    "sp.polisi.s10.title": "10. Disclaimer & Rights",
+    "sp.polisi.s10.1": "Kino Studios Sdn. Bhd. reserves the right to amend this policy from time to time. Latest version posted at www.kino.my.",
+    "sp.polisi.s10.2": "This document is not legal advice. Sponsorship agreements are subject to specific terms agreed in writing.",
+    "sp.polisi.s10.3": "Names, logos and creative materials of the Production are protected intellectual property.",
+
+    "sp.polisi.signed": "Authorized by",
+    "sp.polisi.signatory": "Mahadzir Hanafiah",
+    "sp.polisi.signatory.role": "Founder & Principal Producer, Kino Studios Sdn. Bhd. (KinoCinema Media)",
+    "sp.polisi.version": "Version 1.0 · July 2026",
 
     "footer.sponsorship": "Sponsorship & Official Channels",
     "footer.sponsorship.sub": "Process, official channels, fraud warning & FAQ",
