@@ -687,3 +687,66 @@ Verification (live):
 - BM + EN both work
 - Pushed to GitHub (commit d9385ad)
 - Deployed: https://beting-beras-basah-ii.vercel.app/penajaan-rasmi#polisi
+
+---
+Task ID: maintenance-mode
+Agent: main
+Task: Temporarily disable website — Maintenance Mode
+
+User request: "Disable the website temporarily"
+
+Approach:
+- Created src/middleware.ts that intercepts ALL routes
+- Returns 503 Service Unavailable with maintenance HTML page
+- Page styled with BBB theme (dark green + gold, Cormorant Garamond serif)
+- All assets (logos, PDFs, images, favicon) still accessible
+  for investors with direct links
+
+Maintenance page content:
+- BBB logo (logo-bbb-hero-white.png)
+- Status badge with pulsing dot: "Laman Dalam Penyelenggaraan"
+- Eyebrow: "Makluman Rasmi"
+- H1: "Laman Sedang Diselenggara" (gold italic on "Diselenggara")
+- Body: maintenance message about temporary unavailability
+- Contact card with gold top border:
+  - hello@kino.my
+  - +6017-663 5990
+  - www.kino.my
+- Footer: "Anjuran Kino Studios Sdn. Bhd. (002138666-M) / KinoCinema Media"
+
+HTTP details:
+- Status: 503 Service Unavailable
+- Retry-After: 3600 (1 hour)
+- Cache-Control: no-store, no-cache, must-revalidate
+
+Routes affected (503):
+- / (main page)
+- /program-legasi
+- /penajaan-rasmi
+- All other dynamic routes
+
+Routes excluded (still 200 OK):
+- /_next/static, /_next/image (CSS, JS, fonts)
+- /favicon.png, /favicon.svg
+- /logos/* (all 6 logo images)
+- /documents/* (all 6 PDFs: 5 surat sokongan + Polisi + Pitch Deck)
+- /images/* (21 hero images)
+- /robots.txt
+
+Files:
+- src/middleware.ts (new, 285 lines)
+
+TO RE-ENABLE WEBSITE:
+1. Delete src/middleware.ts
+2. git add -A && git commit -m "Re-enable website" && git push
+3. Vercel auto-deploys — site goes live again
+No data loss. All Supabase leads, GitHub repo, Vercel project intact.
+
+Verification (live):
+- All 3 main routes (/ , /program-legasi, /penajaan-rasmi): 503 ✓
+- All assets (logos, PDFs, images): 200 OK ✓
+- Page title: "Penyelenggaraan | Teater Bangsawan Beting Basah"
+- 0 lint errors, 0 browser errors
+- BM language (page is in Malay)
+- Pushed to GitHub (commit 265cb5b)
+- Deployed: https://beting-beras-basah-ii.vercel.app
