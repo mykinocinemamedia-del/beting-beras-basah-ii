@@ -250,12 +250,6 @@ const maintenanceHTML = `<!DOCTYPE html>
         <span class="contact-value">www.kino.my</span>
       </div>
     </div>
-
-    <p class="footer-note">
-      Teater Bangsawan Beting Basah: Hikayat Mahkota Dewa<br>
-      Anjuran Kino Studios Sdn. Bhd. (002138666-M) / KinoCinema Media<br>
-      Istana Budaya, Kuala Lumpur · 2026
-    </p>
   </div>
 </body>
 </html>`;
